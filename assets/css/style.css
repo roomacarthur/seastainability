@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300;400;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: #1e6262;
+  font-weight: 300;
+  background-color: #ecfffb;
+}
+/*Typography Styling*/
+h1,
+h2,
+h3 {
+  color: #1e6262;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-family: Lato, sans-serif;
+}
+.active {
+  padding-bottom: 4px;
+  border-bottom: 4px solid #2d767f;
+}
+/*Styling for header*/
+#logo {
+  font-size: 260%;
+  float: left;
+  margin-left: 25px;
+}
+#header-nav,
+#logo {
+  line-height: 75px;
+}
+#header-nav ul {
+  float: right;
+}
+#header-nav li {
+  float: left;
+  margin-right: 25px;
+  list-style-type: none;
+}
+#header-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+#header-nav a:hover {
+  padding-bottom: 4px;
+  border-bottom: 4px solid #2d767f;
+}
+
+/*footer Styling*/
+footer {
+  margin: 5%;
+  height: 150px;
+  clear: both;
+}
+footer a {
+  text-decoration: none;
+}
+#left-footer h2:hover {
+  text-decoration: underline;
+}
+#left-footer {
+  float: left;
+}
+#right-footer {
+  float: right;
+}
+#center-footer {
+  margin: 0 auto;
+}
+#left-footer,
+#right-footer,
+#center-footer {
+  line-height: 150px;
+}
+.footer-socials {
+  text-align: center;
+}
+.footer-socials li {
+  display: inline;
+}
+.footer-socials i {
+  margin: 2.5%;
+  padding: 0;
+  color: #1e6262;
+  font-size: 150%;
+}
+/*Social hover animation*/
+.footer-socials i:hover {
+  animation-name: socials-zoom;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes socials-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
