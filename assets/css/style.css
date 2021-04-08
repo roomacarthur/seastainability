@@ -101,7 +101,44 @@ h3 {
   margin: 0 auto;
   padding-top: 75px;
 }
-
+/*index.html Main Content Styling*/
+#main {
+  padding: 25px;
+  text-align: center;
+}
+#left-main,
+#right-main,
+#center-main {
+  width: 31%;
+  height: 300px;
+  padding-top: 25px;
+  border: 2px solid #1e6262;
+  border-radius: 25px;
+  background-color: #1e6262;
+  text-align: center;
+}
+#main h2,
+#main p {
+  color: #ecfffb !important;
+}
+.main-cta {
+  border: 1px solid red;
+  width: 100px;
+  height: 50px;
+  background-color: #ecfffb;
+  text-align: center;
+  position: absolute;
+  bottom: 25px;
+}
+#left-main {
+  float: left;
+}
+#right-main {
+  float: right;
+}
+#center-main {
+  margin: 0 auto;
+}
 /*footer Styling*/
 footer {
   margin: 5%;
@@ -153,5 +190,30 @@ footer a {
   }
   to {
     transform: scale(1.5);
+  }
+}
+/*Media Queries*/
+/*For screens with a max width of 1200px and down*/
+@media screen and (max-width: 1200px) {
+  /*#logo is responsive for all screen sizes below 1200px.*/
+  #logo {
+    margin: 0;
+    padding: 0;
+  }
+  #header-nav ul {
+    clear: left;
+    float: left;
+  }
+}
+/*For screens with a max with of 900px and down (Tablets)*/
+@media screen and (max-width: 700px) {
+  #header-nav {
+    width: 100%;
+  }
+}
+
+/*For screens with a max width of 450px and down (mobile devices)*/
+@media screen and (max-width: 450px;) {
+  #logo {
   }
 }
