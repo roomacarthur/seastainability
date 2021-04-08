@@ -111,7 +111,7 @@ footer {
 footer a {
   text-decoration: none;
 }
-#left-footer h2:hover {
+#left-footer h3:hover {
   text-decoration: underline;
 }
 #left-footer {
