@@ -2,7 +2,7 @@
 
 ## Code Institute - Milestone Project 1 - 8th April 2021
 
-[Click Here to view the Live Project.](https://github.com/roomacarthur/seastainability)
+[Click Here to view the Live Project.](https://roomacarthur.github.io/seastainability/)
 
 ## The Why
 
@@ -13,9 +13,13 @@ Our oceans contribute to the survival of human kind
 - ### The User
 
   - #### First Time User:
-    -
-    -
-    -
+    - To be captivated with the content.
+    - To sign up for the monthly news letter.
+    - To have a better understanding on how to protect our oceans.
+    - To have find the site easy to navigate.
+  - #### Returning User:
+    - To instantly know/remember how to navigate.
+    - Find the information they require within as few actions as possible.
 
 ## Design
 
@@ -27,11 +31,12 @@ Our oceans contribute to the survival of human kind
 
 ### Colours:
 
-colour insperation has been decided upon with the aid of [Colorinspo](https://colorinspo.com)
-#1e6262 - Dark
-#2d767f - Blue
-#b4f1f1 - Light.
-#ecfffb - background
+colour insperation has been decided upon with the aid of [Colorinspo](https://colorsinspo.com/color-palettes/search/?sterm=%232d767f)
+
+- #1e6262 - Dark
+- #2d767f - Blue
+- #b4f1f1 - Light.
+- #ecfffb - background
 
 ### Images:
 

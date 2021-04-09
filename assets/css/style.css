@@ -230,6 +230,7 @@ footer a {
 .signup-form h2 {
   color: #ecfffb;
   margin-bottom: 20px;
+  text-align: center;
 }
 .text-input {
   background: transparent;
@@ -257,6 +258,36 @@ footer a {
 .submit-button:hover {
   background-color: #ecfffb;
   color: #2d767f;
+}
+/*Aside styling on Signup.html*/
+aside {
+  float: right;
+  margin: 75px 10% 0 0;
+  max-width: 400px;
+  background-color: rgba(25, 71, 79, 0.8);
+  padding: 25px;
+  color: #ecfffb;
+  letter-spacing: 2px;
+}
+aside h2,
+aside h3 {
+  color: #ecfffb;
+  padding-bottom: 12.5px;
+}
+aside h2 {
+  text-align: center;
+}
+aside h3 {
+  padding-top: 12.5px;
+}
+aside p {
+  padding-top: 12.5px;
+}
+aside ul {
+  padding-left: 25px;
+}
+aside li {
+  letter-spacing: 2px;
 }
 /*Media Queries*/
 /*For screens with a max width of 1200px and down*/
