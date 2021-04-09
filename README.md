@@ -27,11 +27,15 @@ Our oceans contribute to the survival of human kind
 
 ### Colours:
 
+colour insperation has been decided upon with the aid of [Colorinspo](https://colorinspo.com)
 #1e6262 - Dark
 #2d767f - Blue
 #b4f1f1 - Light.
 #ecfffb - background
 
 ### Images:
+
+All Images used within this site have beenn provided with [Pexels](https://pexels.com) a royalty free website.
+all images have been compressed with the use of [Squoosh](https://squoosh.app) - images with an opaque overlay have been compressed heavier as the quality of the image isn't as important.
 
 ## Navigation

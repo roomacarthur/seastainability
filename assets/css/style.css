@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   border: none;
+  font-size: 16px;
 }
 
 body {
@@ -22,14 +23,14 @@ h3 {
   font-family: Lato, sans-serif;
 }
 .active {
-  padding-bottom: 4px;
-  border-bottom: 4px solid #2d767f;
+  padding-bottom: 0.2em;
+  border-bottom: 0.2em solid #2d767f;
 }
 /*Styling for header*/
 #logo {
   font-size: 260%;
   float: left;
-  margin-left: 25px;
+  margin-left: 1.6rem;
 }
 #header-nav,
 #logo {
@@ -43,7 +44,7 @@ h3 {
   font-weight: 500;
   letter-spacing: 1px;
   float: left;
-  margin-right: 25px;
+  margin-right: 1.6rem;
   list-style-type: none;
 }
 #signup a {
@@ -56,15 +57,15 @@ h3 {
 #header-nav #signup {
   background-color: #2d767f;
   color: #ecfffb;
-  padding: 4px;
+  padding: 0.25rem;
   border: 2px solid #2d767f;
-  border-radius: 5px;
+  border-radius: 0.25rem;
   box-sizing: border-box;
 }
 
 .navlink:hover {
-  padding-bottom: 4px;
-  border-bottom: 4px solid #2d767f;
+  padding-bottom: 0.2em;
+  border-bottom: 0.2em solid #2d767f;
   box-sizing: border-box;
 }
 #header-nav #signup:hover {
@@ -139,6 +140,16 @@ h3 {
 #center-main {
   margin: 0 auto;
 }
+/*Main image styling*/
+.main-img {
+  max-width: 60%;
+  height: 150px;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 25px;
+}
 /*footer Styling*/
 footer {
   margin: 5%;
@@ -191,6 +202,61 @@ footer a {
   to {
     transform: scale(1.5);
   }
+}
+/*Sign Up page/form styling*/
+.form-section {
+  clear: left;
+  background: url("/assets/images/beach-2089936_1920.jpg");
+  background-color: rgba(25, 71, 79, 0.6);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+/*opaque overlay to darken background image*/
+#form-img-overlay {
+  height: inherit;
+  width: inherit;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.signup-form {
+  margin: 75px 10% 0 0;
+  color: #ecfffb;
+  background-color: rgba(25, 71, 79, 0.8);
+  max-width: 400px;
+  position: absolute;
+  left: 10%;
+  padding: 25px;
+}
+.signup-form h2 {
+  color: #ecfffb;
+  margin-bottom: 20px;
+}
+.text-input {
+  background: transparent;
+  color: #ecfffb;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #ecfffb;
+  border-radius: 3px;
+}
+.text-input:hover {
+  border-color: #2d767f;
+}
+.submit-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 100%;
+  background-color: #2d767f;
+  color: #ecfffb;
+  display: block;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: #ecfffb;
+  color: #2d767f;
 }
 /*Media Queries*/
 /*For screens with a max width of 1200px and down*/
