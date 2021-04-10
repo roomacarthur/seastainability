@@ -27,7 +27,7 @@ Our oceans contribute to the survival of human kind
 
 ### Typography:
 
-      Following along with the design brief I want the user to have a very friendly and eco sensible experiance for this I have picked Two fonts Both from the Google Fonts library. Fonts used are Lato and Roboto.
+Following along with the design brief I want the user to have a very friendly and eco sensible experiance for this I have picked Two fonts Both from the Google Fonts library. Fonts used are Lato and Roboto.
 
 ### Colours:
 

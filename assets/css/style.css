@@ -215,7 +215,7 @@ footer a {
 /*opaque overlay to darken background image*/
 #form-img-overlay {
   height: inherit;
-  width: inherit;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
 }
 .signup-form {
@@ -281,6 +281,7 @@ aside h3 {
   padding-top: 12.5px;
 }
 aside p {
+  line-height: 1.2rem;
   padding-top: 12.5px;
 }
 aside ul {
@@ -300,6 +301,16 @@ aside li {
   #header-nav ul {
     clear: left;
     float: left;
+  }
+
+  /*signup.html*/
+  .signup-form {
+    top: 75px;
+    position: relative;
+    margin: 0 auto;
+  }
+  aside {
+    display: none;
   }
 }
 /*For screens with a max with of 900px and down (Tablets)*/
