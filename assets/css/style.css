@@ -98,10 +98,21 @@ h3 {
   top: 0;
 }
 #cover-text {
-  width: 80%;
+  width: 100ch;
   margin: 0 auto;
   padding-top: 75px;
+  /* animation: typing 4s steps(15); */
 }
+/*Cover text typing animation on page load.*/
+/* @keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 7.7em;
+    animation: typing 4s;
+  }
+} */
 /*index.html Main Content Styling*/
 #main {
   padding: 25px;
@@ -118,9 +129,20 @@ h3 {
   background-color: #1e6262;
   text-align: center;
 }
+#main h2 {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
 #main h2,
 #main p {
   color: #ecfffb !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+#main a {
+  text-decoration: none;
 }
 .main-cta {
   border: 1px solid red;
@@ -140,6 +162,20 @@ h3 {
 #center-main {
   margin: 0 auto;
 }
+/*Main Div hover*/
+#main div:hover {
+  animation-name: maindiv-zoom;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes maindiv-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
 /*Main image styling*/
 .main-img {
   max-width: 60%;
@@ -150,6 +186,7 @@ h3 {
   display: block;
   border-radius: 25px;
 }
+
 /*footer Styling*/
 footer {
   margin: 5%;

@@ -6,7 +6,7 @@
 
 ## The Why
 
-Our oceans contribute to the survival of human kind
+Bring interest into the habbits of being more sustainable to protect our oceans, Provide people with quick and easy facts and information to strengthen their opinions.
 
 ## (UX) User Experiance
 
@@ -20,6 +20,11 @@ Our oceans contribute to the survival of human kind
   - #### Returning User:
     - To instantly know/remember how to navigate.
     - Find the information they require within as few actions as possible.
+  - #### Issues for Users to overcome:
+    - Fact checked information to provide trustworthy content.
+    - Ease of navigation.
+    - Fast loating packets to make the site available to everyone.
+    - Responsive design.
 
 ## Design
 
