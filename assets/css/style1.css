@@ -1,0 +1,103 @@
+/*Import Google Font's Package.*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300;400;900&display=swap");
+
+/*colour Variables*/
+:root {
+  --light: #ecfffb;
+  --primary: #2d767f;
+  --darkblue: #1e6262;
+  --skyblue: #b4f1f1;
+}
+
+/*Root styles for the page, Reset browser added styles.* {} targets all HTML elements.*/
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+/*Body Styling*/
+body {
+  font-family: Roboto, Sans-serif;
+  color: var(--primary);
+  font-weight: 300; /*This needs checking.*/
+  background-color: var(--light);
+}
+/*Typography Styling*/
+h1,
+h2,
+h3 {
+  font-family: Lato, sans-serif;
+  color: var(--primary);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+/*Remove default Hyperlink styling.*/
+a {
+  text-decoration: none;
+}
+
+/*Mobile first design, targeting max width of 600px*/
+
+/*Header Styling. #logo and #header-nav*/
+header {
+  width: 100vw;
+}
+#logo {
+  width: 100%;
+  font-size: 2em;
+  overflow: hidden;
+  line-height: 75px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--light);
+  background-color: var(--darkblue);
+}
+#header-nav {
+  width: 100%;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: var(--darkblue);
+}
+/*Hamburger style menu styling*/
+#mobile-nav {
+  width: 100%;
+  background: var(--darkblue);
+  text-align: center;
+}
+/* Show Hamburger Icon */
+#mobile-nav label {
+  display: inline-block;
+  color: var(--light);
+  background: var(--darkblue);
+  font-style: normal;
+  font-size: 1.2em;
+  padding: 0 10px 10px 10px;
+  margin-top: 10px;
+}
+
+/* Break down menu items into vertical */
+#hamitems a {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 2rem;
+  color: var(--light);
+  padding-top: 0.5em;
+  text-align: center;
+  letter-spacing: 1px;
+  border-top: 1px solid var(--primary);
+}
+/* Toggle Show/Hide Menu */
+#hamitems {
+  display: none;
+}
+#mobile-nav input:checked ~ #hamitems {
+  display: block;
+}
+/*Hide default checkbox*/
+#hamburger {
+  display: none;
+}
+/*Page Styling targeting device sizes greater than 600px*/
+@media screen and (min-width: 600px) {
+}

@@ -72,6 +72,11 @@ h3 {
   background-color: #ecfffb;
   color: #2d767f;
 }
+/*Hide hamburger in desktop view.*/
+#hamburger,
+.mobile-menu {
+  display: none;
+}
 /*Hero Section Styling*/
 #hero {
   height: 300px;
@@ -330,14 +335,50 @@ aside li {
 /*Media Queries*/
 /*For screens with a max width of 1200px and down*/
 @media screen and (max-width: 1200px) {
-  /*#logo is responsive for all screen sizes below 1200px.*/
-  #logo {
-    margin: 0;
-    padding: 0;
+  /*Nav bar changes to hamburger menu*/
+  #hamitems {
+    display: none;
   }
+  label.mobile-menu {
+    line-height: 50px;
+    top: 5px;
+  }
+  #mobile-nav label {
+    display: inline-block;
+    position: absolute;
+    color: var(--light);
+    background: var(--darkblue);
+    font-style: normal;
+    font-size: 2em;
+    padding: 10px;
+    right: 0;
+  }
+  /* Break down menu items into vertical */
   #header-nav ul {
-    clear: left;
-    float: left;
+    width: 100%;
+  }
+  #header-nav li {
+    box-sizing: border-box;
+    line-height: 35px;
+    display: block;
+    width: 100%;
+    color: var(--light);
+    letter-spacing: 1px;
+    border-top: 1px solid var(--primary);
+    text-align: end;
+    padding-right: 10px;
+  }
+  /* Toggle Show/Hide Menu */
+  #hamitems {
+    display: none;
+  }
+  #mobile-nav input:checked ~ #hamitems {
+    display: block;
+    clear: both;
+  }
+  /*Hide default checkbox*/
+  #hamburger {
+    display: none;
   }
 
   /*signup.html*/
