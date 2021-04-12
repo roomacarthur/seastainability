@@ -79,16 +79,17 @@ h3 {
 }
 /*Hero Section Styling*/
 #hero {
-  height: 300px;
+  height: 900px;
   width: 100%;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 #hero h2 {
   color: #ecfffb;
 }
 #hero-image {
-  height: 300px;
+  height: 900px;
   width: 100%;
   background: #1e6262 url("../images/sea-3652697_1920.jpg") no-repeat center
     center;
@@ -103,25 +104,26 @@ h3 {
   top: 0;
 }
 #cover-text {
-  width: 100ch;
+  width: 100%;
   margin: 0 auto;
   padding-top: 75px;
   /* animation: typing 4s steps(15); */
 }
 /*Cover text typing animation on page load.*/
 /* @keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 7.7em;
-    animation: typing 4s;
-  }
-} */
+      from {
+        width: 0;
+      }
+      to {
+        width: 7.7em;
+        animation: typing 4s;
+      }
+    } */
 /*index.html Main Content Styling*/
 #main {
   padding: 25px;
   text-align: center;
+  z-index: 2;
 }
 #left-main,
 #right-main,
@@ -246,20 +248,7 @@ footer a {
   }
 }
 /*Sign Up page/form styling*/
-.form-section {
-  clear: left;
-  background: url("/assets/images/beach-2089936_1920.jpg");
-  background-color: rgba(25, 71, 79, 0.6);
-  background-size: cover;
-  background-position: center;
-  height: 600px;
-}
-/*opaque overlay to darken background image*/
-#form-img-overlay {
-  height: inherit;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-}
+
 .signup-form {
   margin: 75px 10% 0 0;
   color: #ecfffb;
