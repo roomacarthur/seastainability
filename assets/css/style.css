@@ -382,6 +382,9 @@ aside li {
 }
 /*For screens with a max with of 900px and down (Tablets)*/
 @media screen and (max-width: 500px) {
+  #logo {
+    font-size: 200%;
+  }
   #header-nav {
     width: 100%;
   }
@@ -390,5 +393,6 @@ aside li {
 /*For screens with a max width of 450px and down (mobile devices)*/
 @media screen and (max-width: 450px;) {
   #logo {
+    font-size: 150%;
   }
 }
