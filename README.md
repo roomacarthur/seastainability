@@ -2,7 +2,11 @@
 
 ## Code Institute - Milestone Project 1 - 8th April 2021
 
+## HTML/CSS Essentials - User Sentric, Static Front-End Website
+
 [Click Here to view the Live Project.](https://roomacarthur.github.io/seastainability/)
+
+[Click here to view the Repository.](https://github.com/roomacarthur/seastainability)
 
 ## The Why
 
