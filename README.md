@@ -28,6 +28,8 @@ Bring interest into the habbits of being more sustainable to protect our oceans,
 
 ## Design
 
+The basis of this design
+
 ### Design Brief:
 
 ### Typography:
