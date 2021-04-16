@@ -22,6 +22,7 @@ h3 {
   text-transform: uppercase;
   font-family: Lato, sans-serif;
 }
+/*Active page underline on navbar*/
 .active {
   padding-bottom: 0.2em;
   border-bottom: 0.2em solid #2d767f;
