@@ -1,8 +1,8 @@
 # Seastainability | Ruairidh MacArthur
 
-## Code Institute - Milestone Project 1 - 8th April 2021
+## Code Institute - Milestone Project 1
 
-## HTML/CSS Essentials - User Sentric, Static Front-End Website
+### HTML/CSS Essentials - User Sentric, Static Front-End Website
 
 [Click Here to view the Live Project.](https://roomacarthur.github.io/seastainability/)
 
