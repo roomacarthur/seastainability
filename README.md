@@ -58,6 +58,30 @@ all images have been compressed with the use of [Squoosh](https://squoosh.app) -
 
 The basic structure of SEASTAINABILITY was sketched out on paper and then with the use of the software [BALSAMIQ](https://balsamiq.com/). I was able to take the sketches and turn them into a more professional and realistic looking guide.
 
+#### Desktop
+
+- [Home](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-home.png)
+- [Our Mission](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-ourmission.png)
+- [Our Oceans](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-ouroceans.png)
+- [Do Your Part](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-doyourpart.png)
+- [Contact Us](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-contactus.png)
+
+#### Tablet
+
+- [Home](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/tablet-home.png)
+- [Our Mission](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/tablet-ourmission.png)
+- [Our Oceans](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/tablet-ouroceans.png)
+- [Do Your Part](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/tablet-doyourpart.png)
+- [Contact Us](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/tablet-contactus.png)
+
+#### Mobile
+
+- [Home](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/mobile-home.png)
+- [Our Mission](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/mobile-ourmission.png)
+- [Our Oceans](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/mobile-ouroceans.png)
+- [Do Your Part](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/mobile-doyourpart.png)
+- [Contact Us](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/mobile-contactus.png)
+
 ## Technologies
 
 ### Languages used:
