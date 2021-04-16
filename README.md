@@ -8,6 +8,26 @@
 
 [Click here to view the Repository.](https://github.com/roomacarthur/seastainability)
 
+## Table of Contents
+
+- [The Why](https://github.com/roomacarthur/seastainability#the-why)
+- [(UX) User Experiance](https://github.com/roomacarthur/seastainability#ux-user-experiance)
+
+- [Design](https://github.com/roomacarthur/seastainability#design)
+
+  - [Design Brief](https://github.com/roomacarthur/seastainability#design-brief)
+  - [Typography](https://github.com/roomacarthur/seastainability#typography)
+  - [Colours](https://github.com/roomacarthur/seastainability#colours)
+  - [Images](https://github.com/roomacarthur/seastainability#images)
+  - [Wireframes](https://github.com/roomacarthur/seastainability#wireframes)
+    - [Desktop](https://github.com/roomacarthur/seastainability#desktop)
+    - [Tablet](https://github.com/roomacarthur/seastainability#tablet)
+    - [Mobile](https://github.com/roomacarthur/seastainability#mobile)
+
+- [Technologies](https://github.com/roomacarthur/seastainability#technologies)
+- [Testing](https://github.com/roomacarthur/seastainability#testing)
+- [Deployment](https://github.com/roomacarthur/seastainability#deployment)
+
 ## The Why
 
 Bring interest into the habbits of being more sustainable to protect our oceans, Provide people with quick and easy facts and information to strengthen their opinions.
@@ -42,7 +62,7 @@ Following along with the design brief I want the user to have a very friendly an
 
 ### Colours:
 
-colour insperation has been decided upon with the aid of [Colorinspo](https://colorsinspo.com/color-palettes/search/?sterm=%232d767f)
+To keep the colours inline with the design brief and with the help of [Colorinspo](https://colorsinspo.com/color-palettes/search/?sterm=%232d767f) I have decided to go with the netural colours listed below.
 
 - #1e6262 - Dark
 - #2d767f - Blue

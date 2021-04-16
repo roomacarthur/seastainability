@@ -54,7 +54,7 @@ h3 {
   color: #2d767f;
   text-decoration: none;
 }
-#header-nav #signup {
+#header-nav #contact-us {
   background-color: #2d767f;
   color: #ecfffb;
   padding: 0.25rem;
@@ -68,7 +68,7 @@ h3 {
   border-bottom: 0.2em solid #2d767f;
   box-sizing: border-box;
 }
-#header-nav #signup:hover {
+#header-nav #contact-us:hover {
   background-color: #ecfffb;
   color: #2d767f;
 }
