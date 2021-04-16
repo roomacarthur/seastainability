@@ -73,6 +73,7 @@ To keep the colours inline with the design brief and with the help of [Colorinsp
 
 All Images used within this site have beenn provided with [Pexels](https://pexels.com) a royalty free website.
 all images have been compressed with the use of [Squoosh](https://squoosh.app) - images with an opaque overlay have been compressed heavier as the quality of the image isn't as important.
+The Favicon used for the site was taken from [Favicon.cc](https://www.favicon.cc/?action=icon&file_id=690331)
 
 ### Wireframes
 

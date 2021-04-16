@@ -35,69 +35,226 @@ h3 {
 a {
   text-decoration: none;
 }
-
-/*Mobile first design, targeting max width of 600px*/
-
-/*Header Styling. #logo and #header-nav*/
-header {
-  width: 100vw;
-}
+/*Styling for header*/
 #logo {
-  width: 100%;
-  font-size: 2em;
-  overflow: hidden;
+  font-size: 260%;
+  float: left;
+  margin-left: 1.6rem;
+}
+#header-nav,
+#logo {
   line-height: 75px;
-  margin: 0 auto;
-  text-align: center;
-  color: var(--light);
-  background-color: var(--darkblue);
 }
-#header-nav {
-  width: 100%;
-  line-height: 1em;
+#header-nav ul {
+  float: right;
+}
+#header-nav li {
   text-transform: uppercase;
-  color: var(--darkblue);
+  font-weight: 500;
+  letter-spacing: 1px;
+  float: left;
+  margin-right: 1.6rem;
+  list-style-type: none;
 }
-/*Hamburger style menu styling*/
-#mobile-nav {
-  width: 100%;
-  background: var(--darkblue);
-  text-align: center;
+#contact-us a {
+  color: #ecfffb !important;
 }
-/* Show Hamburger Icon */
-#mobile-nav label {
-  display: inline-block;
-  color: var(--light);
-  background: var(--darkblue);
-  font-style: normal;
-  font-size: 1.2em;
-  padding: 0 10px 10px 10px;
-  margin-top: 10px;
+#header-nav a {
+  color: #2d767f;
+  text-decoration: none;
+}
+#header-nav #contact-us {
+  background-color: #2d767f;
+  color: #ecfffb;
+  padding: 0.25rem;
+  border: 2px solid #2d767f;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
 }
 
-/* Break down menu items into vertical */
-#hamitems a {
+.navlink:hover {
+  padding-bottom: 0.2em;
+  border-bottom: 0.2em solid #2d767f;
   box-sizing: border-box;
-  display: block;
+}
+#header-nav #contact-us:hover {
+  background-color: #ecfffb;
+  color: #2d767f;
+}
+/*Hide hamburger in desktop view.*/
+#hamburger,
+.mobile-menu {
+  display: none;
+}
+
+#container {
+  clear: both;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 25px 1fr 1fr 1fr 25px;
+  grid-template-rows: 0.5fr 1.5fr 0.2fr;
+  grid-template-areas:
+    "hero hero hero hero hero"
+    ". leftmain centermain rightmain ."
+    ". footer footer footer .";
+  column-gap: 2rem;
+}
+
+#hero {
+  grid-area: hero;
+  padding-bottom: 50px;
+}
+#hero-image {
+  height: 300px;
   width: 100%;
-  height: 2rem;
-  color: var(--light);
-  padding-top: 0.5em;
+  position: absolute;
+  z-index: 1;
+}
+#hero-cover {
+  height: 300px;
+  width: 100%;
+  background-color: rgba(25, 71, 79, 0.6);
+  position: relative;
+  z-index: 2;
+}
+#cover-text {
+  position: relative;
+  z-index: 3;
+  top: 100px;
   text-align: center;
+}
+#hero h2 {
+  color: var(--light);
+  padding: 0 25px 0 25px;
+}
+
+/* #main {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+} */
+#left-main,
+#right-main,
+#center-main {
+  background-color: var(--darkblue);
+  color: var(--light);
+  border-radius: 10px;
+  width: 100%;
+  height: 450px;
+  min-width: 350px;
+  max-width: 400px;
+}
+.div-content {
+  text-align: center;
+}
+.div-content h2 {
+  color: var(--light);
+  padding: 25px 10px 25px 10px;
+  height: 50px;
+}
+.div-content img {
+  margin-top: 25px;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+.div-content p {
+  color: var(--light);
+  padding: 25px 10px 25px 10px;
   letter-spacing: 1px;
-  border-top: 1px solid var(--primary);
+  font-weight: 400;
 }
-/* Toggle Show/Hide Menu */
-#hamitems {
-  display: none;
+/*Grid alignment for 3 main Div's*/
+#left-main {
+  grid-area: leftmain;
 }
-#mobile-nav input:checked ~ #hamitems {
-  display: block;
+#right-main {
+  grid-area: rightmain;
 }
-/*Hide default checkbox*/
-#hamburger {
-  display: none;
+#center-main {
+  grid-area: centermain;
 }
-/*Page Styling targeting device sizes greater than 600px*/
-@media screen and (min-width: 600px) {
+/*Main Content Hover animation */
+#left-main:hover,
+#right-main:hover,
+#center-main:hover {
+  animation-name: maindiv-zoom;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
 }
+@keyframes maindiv-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+/*footer styling*/
+
+/*sdasd*/
+footer {
+  grid-area: footer;
+  line-height: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+footer div {
+  width: 30%;
+}
+#left-footer {
+  float: left;
+}
+footer h3 {
+  /* padding: 0 10px 0 10px; */
+  font-size: 100%;
+}
+#right-footer {
+  float: right;
+}
+#center-footer {
+  margin: 0 auto;
+}
+.footer-socials {
+  text-align: center;
+}
+.footer-socials li {
+  display: inline;
+}
+.footer-socials i {
+  margin: 0;
+  padding: 0 10px 0 10px;
+  color: #1e6262;
+  font-size: 150%;
+}
+/*Social hover animation*/
+.footer-socials i:hover {
+  animation-name: socials-zoom;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes socials-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+/*Media Queries*/
+
+/*For Tablet Sized screens max width of 1200px*/
+
+/* @media screen and (max-width: 1200px) {
+  #container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr 0.2fr;
+    grid-template-areas:
+      "hero hero hero hero"
+      "main main main main"
+      "footer footer footer footer";
+  }
+} */
