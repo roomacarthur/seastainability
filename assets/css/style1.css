@@ -46,6 +46,9 @@ a {
 #logo {
   line-height: 75px;
 }
+#header-nav {
+  padding-right: 1.6rem;
+}
 #header-nav ul {
   float: right;
 }
@@ -105,7 +108,10 @@ a {
     "footer footer footer footer footer";
   column-gap: 3%;
 }
-
+/*center divs within grid allignment for main content area.*/
+#container div {
+  margin: 0 auto;
+}
 #hero {
   grid-area: hero;
   padding-bottom: 50px;
@@ -138,11 +144,6 @@ a {
   padding: 0 25px;
 }
 
-/* #main {
-  margin-left: 50px;
-  margin-right: 50px;
-  text-align: center;
-} */
 #left-main,
 #right-main,
 #center-main {
@@ -206,7 +207,7 @@ a {
 /*sdasd*/
 footer {
   grid-area: footer;
-  line-height: 50px;
+  line-height: 25px;
   padding-top: 25px;
   padding-bottom: 25px;
   display: grid;
@@ -216,6 +217,10 @@ footer {
 }
 #left-footer {
   grid-area: footleft;
+}
+#left-footer a h3:hover {
+  padding-bottom: 0.2em;
+  border-bottom: 4px solid #2d767f;
 }
 footer h3 {
   /* padding: 0 10px 0 10px; */
