@@ -307,11 +307,10 @@ footer h3 {
     box-sizing: border-box;
     line-height: 40px;
     display: block;
-    width: 100%;
+    width: 100vw;
     color: var(--light);
     letter-spacing: 1px;
     border-top: 1px solid var(--primary);
-    text-align: end;
     text-align: center;
   }
   /* Toggle Show/Hide Menu */
@@ -353,4 +352,6 @@ footer h3 {
   footer div {
     padding-top: 10px;
   }
+}
+@media screen and (max-width: 600px) {
 }
