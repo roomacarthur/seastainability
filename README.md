@@ -4,6 +4,8 @@
 
 ### HTML/CSS Essentials - User Sentric, Static Front-End Website
 
+![Site example on multiple examples.](assets/images/readme-images/amiresponsive.png)
+
 [Click Here to view the Live Project.](https://roomacarthur.github.io/seastainability/)
 
 [Click here to view the Repository.](https://github.com/roomacarthur/seastainability)
