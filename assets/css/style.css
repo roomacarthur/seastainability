@@ -1,41 +1,53 @@
+/*Import Google Font's Package.*/
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300;400;900&display=swap");
 
+/*colour Variables*/
+:root {
+  --light: #ecfffb;
+  --primary: #2d767f;
+  --darkblue: #1e6262;
+  --skyblue: #b4f1f1;
+}
+
+/*Root styles for the page, Reset browser added styles.* {} targets all HTML elements.*/
 * {
   margin: 0;
   padding: 0;
   border: none;
-  font-size: 16px;
 }
-
+/*Body Styling*/
 body {
-  font-family: Roboto, sans-serif;
-  color: #1e6262;
-  font-weight: 300;
-  background-color: #ecfffb;
+  font-family: Roboto, Sans-serif;
+  color: var(--primary);
+  font-weight: 300; /*This needs checking.*/
+  background-color: var(--light);
 }
 /*Typography Styling*/
 h1,
 h2,
 h3 {
-  color: #1e6262;
+  font-family: Lato, sans-serif;
+  color: var(--primary);
   letter-spacing: 4px;
   text-transform: uppercase;
-  font-family: Lato, sans-serif;
 }
-/*Active page underline on navbar*/
-.active {
-  padding-bottom: 0.2em;
-  border-bottom: 0.2em solid #2d767f;
+/*Remove default Hyperlink styling.*/
+a {
+  text-decoration: none;
 }
 /*Styling for header*/
+
 #logo {
   font-size: 260%;
   float: left;
-  margin-left: 1.6rem;
+  padding-left: 1.6rem;
 }
 #header-nav,
 #logo {
   line-height: 75px;
+}
+#header-nav {
+  padding-right: 1.6rem;
 }
 #header-nav ul {
   float: right;
@@ -45,7 +57,7 @@ h3 {
   font-weight: 500;
   letter-spacing: 1px;
   float: left;
-  margin-right: 1.6rem;
+  padding-left: 1.6rem;
   list-style-type: none;
 }
 #contact-us a {
@@ -63,115 +75,142 @@ h3 {
   border-radius: 0.25rem;
   box-sizing: border-box;
 }
-
+/*Underline on hover of nav items.*/
 .navlink:hover {
   padding-bottom: 0.2em;
   border-bottom: 0.2em solid #2d767f;
   box-sizing: border-box;
 }
+/*Colour swap on hover of "contact us" nav item.*/
 #header-nav #contact-us:hover {
   background-color: #ecfffb;
   color: #2d767f;
+}
+/*active page underline on navbar*/
+.active {
+  padding-bottom: 0.2em;
+  border-bottom: 0.2em solid #2d767f;
 }
 /*Hide hamburger in desktop view.*/
 #hamburger,
 .mobile-menu {
   display: none;
 }
-/*Hero Section Styling*/
+/*main content styling.*/
+#container {
+  clear: both;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 2fr 0.2fr;
+  grid-template-areas:
+    "hero hero hero"
+    "main main main "
+    "footer footer footer";
+  column-gap: 3%;
+}
+
+#home-container {
+  grid-area: main;
+  clear: both;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "leftmain centermain rightmain";
+  column-gap: 3%;
+}
+/*center divs within grid allignment for main content area.*/
+#home-container div {
+  margin: 0 auto;
+}
 #hero {
-  height: 900px;
-  width: 100%;
+  grid-area: hero;
+  padding-bottom: 50px;
+  height: 300px;
   position: relative;
-  overflow: hidden;
-  z-index: 1;
 }
-#hero h2 {
-  color: #ecfffb;
-}
-#hero-image {
-  height: 900px;
+#hero img {
   width: 100%;
-  background: #1e6262 url("../images/sea-3652697_1920.jpg") no-repeat center
-    center;
+  height: 300px;
+  position: absolute;
+  z-index: 1;
+  object-fit: cover;
 }
 #hero-cover {
-  width: inherit;
-  height: inherit;
-  color: #ecfffb;
-  background-color: rgba(25, 71, 79, 0.6);
-  text-align: center;
-  position: absolute;
-  top: 0;
-}
-#cover-text {
   width: 100%;
-  margin: 0 auto;
-  padding-top: 75px;
-  /* animation: typing 4s steps(15); */
-}
-/*Cover text typing animation on page load.*/
-/* @keyframes typing {
-      from {
-        width: 0;
-      }
-      to {
-        width: 7.7em;
-        animation: typing 4s;
-      }
-    } */
-/*index.html Main Content Styling*/
-#main {
-  padding: 25px;
-  text-align: center;
+  height: 300px;
+  background-color: rgba(25, 71, 79, 0.6);
+  position: relative;
+  top: 0;
   z-index: 2;
 }
-#left-main,
-#right-main,
-#center-main {
-  width: 31%;
-  height: 300px;
-  padding-top: 25px;
-  border: 2px solid #1e6262;
-  border-radius: 25px;
-  background-color: #1e6262;
+#cover-text {
+  position: relative;
+  z-index: 3;
+  top: 100px;
   text-align: center;
+  /*animates zoom effect for covertext on loading page*/
+  animation-name: covertext-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
-#main h2 {
-  font-size: 1.4rem;
-  font-weight: 900;
+@keyframes covertext-zoom {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
 }
-#main h2,
-#main p {
-  color: #ecfffb !important;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-weight: 400;
-  letter-spacing: 1px;
-}
-#main a {
-  text-decoration: none;
-}
-.main-cta {
-  border: 1px solid red;
-  width: 100px;
-  height: 50px;
-  background-color: #ecfffb;
-  text-align: center;
-  position: absolute;
-  bottom: 25px;
-}
-#left-main {
-  float: left;
-}
-#right-main {
-  float: right;
-}
-#center-main {
+#hero h2 {
+  color: var(--light);
+  width: 90%;
+  padding: 0 25px;
   margin: 0 auto;
 }
-/*Main Div hover*/
-#main div:hover {
+/*Main Styling for content on index.html*/
+.home-div {
+  background-color: var(--darkblue);
+  color: var(--light);
+  border-radius: 10px;
+  width: 100%;
+  height: 475px;
+  min-width: 325px;
+  max-width: 400px;
+}
+.div-content {
+  text-align: center;
+}
+.div-content h2 {
+  color: var(--light);
+  padding: 25px 10px 25px 10px;
+  height: 50px;
+}
+.div-content img {
+  margin-top: 25px;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.div-content p {
+  color: var(--light);
+  padding: 25px 10px 25px 10px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+/*Grid alignment for 3 main Div's*/
+.left-main {
+  grid-area: leftmain;
+}
+.right-main {
+  grid-area: rightmain;
+}
+.center-main {
+  grid-area: centermain;
+}
+/*Main Content Hover animation */
+.home-div:hover {
   animation-name: maindiv-zoom;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
@@ -184,43 +223,66 @@ h3 {
     transform: scale(1.05);
   }
 }
-/*Main image styling*/
-.main-img {
-  max-width: 60%;
-  height: 150px;
-  padding: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  border-radius: 25px;
+
+/*Our Mission Styling*/
+/*Grid layout of main content on ourmission.html*/
+#mission-content {
+  grid-area: main; /*places this new grid layout into the main section of the overall page grid layout.*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "missionvideo missionvideo missionvideo missionvideo"
+    ". missionleft missionright .";
+  row-gap: 3%;
+  column-gap: 3%;
+  text-align: center;
+}
+.mission-video {
+  grid-area: missionvideo;
+  margin: 0 auto;
+}
+.mission-left {
+  grid-area: missionleft;
+}
+.mission-right {
+  grid-area: missionright;
 }
 
-/*footer Styling*/
+/*Ouroceans.html & Doyourpart.html styling(Both same layout.)*/
+#page-content {
+  grid-area: main;
+}
+/*footer styling*/
+
+/*footer*/
 footer {
-  margin: 5%;
-  height: 75px;
-  clear: both;
-}
-footer a {
-  text-decoration: none;
-}
-#left-footer h3:hover {
-  text-decoration: underline;
+  grid-area: footer;
+  line-height: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr;
+  grid-template-areas: "footleft footcenter footright";
 }
 #left-footer {
-  float: left;
+  grid-area: footleft;
+}
+#left-footer a h3:hover {
+  padding-bottom: 0.2em;
+  border-bottom: 4px solid #2d767f;
+}
+footer h3 {
+  /* padding: 0 10px 0 10px; */
+  font-size: 100%;
 }
 #right-footer {
-  float: right;
+  grid-area: footright;
 }
 #center-footer {
-  margin: 0 auto;
-  width: 300px;
-}
-#left-footer,
-#right-footer,
-#center-footer {
-  line-height: 75px;
+  grid-area: footcenter;
 }
 .footer-socials {
   text-align: center;
@@ -230,7 +292,7 @@ footer a {
 }
 .footer-socials i {
   margin: 0;
-  padding: 0;
+  padding: 0 10px 0 10px;
   color: #1e6262;
   font-size: 150%;
 }
@@ -248,82 +310,11 @@ footer a {
     transform: scale(1.5);
   }
 }
-/*Sign Up page/form styling*/
 
-.signup-form {
-  margin: 75px 10% 0 0;
-  color: #ecfffb;
-  background-color: rgba(25, 71, 79, 0.8);
-  max-width: 400px;
-  position: absolute;
-  left: 10%;
-  padding: 25px;
-}
-.signup-form h2 {
-  color: #ecfffb;
-  margin-bottom: 20px;
-  text-align: center;
-}
-.text-input {
-  background: transparent;
-  color: #ecfffb;
-  width: 100%;
-  height: 25px;
-  margin: 5px 0 20px 0;
-  border: 1px solid #ecfffb;
-  border-radius: 3px;
-}
-.text-input:hover {
-  border-color: #2d767f;
-}
-.submit-button {
-  margin-top: 20px;
-  border-radius: 2px;
-  padding: 1rem 2rem;
-  text-align: center;
-  font-size: 100%;
-  background-color: #2d767f;
-  color: #ecfffb;
-  display: block;
-  cursor: pointer;
-}
-.submit-button:hover {
-  background-color: #ecfffb;
-  color: #2d767f;
-}
-/*Aside styling on Signup.html*/
-aside {
-  float: right;
-  margin: 75px 10% 0 0;
-  max-width: 400px;
-  background-color: rgba(25, 71, 79, 0.8);
-  padding: 25px;
-  color: #ecfffb;
-  letter-spacing: 2px;
-}
-aside h2,
-aside h3 {
-  color: #ecfffb;
-  padding-bottom: 12.5px;
-}
-aside h2 {
-  text-align: center;
-}
-aside h3 {
-  padding-top: 12.5px;
-}
-aside p {
-  line-height: 1.2rem;
-  padding-top: 12.5px;
-}
-aside ul {
-  padding-left: 25px;
-}
-aside li {
-  letter-spacing: 2px;
-}
 /*Media Queries*/
-/*For screens with a max width of 1200px and down*/
+
+/*For Tablet Sized screens max width of 1200px*/
+
 @media screen and (max-width: 1200px) {
   /*Nav bar changes to hamburger menu*/
   #hamitems {
@@ -331,7 +322,9 @@ aside li {
   }
   label.mobile-menu {
     line-height: 50px;
-    top: 5px;
+    width: 50px;
+    text-align: center;
+    top: 2.5px;
   }
   #mobile-nav label {
     display: inline-block;
@@ -340,23 +333,25 @@ aside li {
     background: var(--darkblue);
     font-style: normal;
     font-size: 2em;
-    padding: 10px;
     right: 0;
+    line-height: 70px;
   }
   /* Break down menu items into vertical */
   #header-nav ul {
     width: 100%;
   }
+  #logo {
+    font-size: 150%;
+  }
   #header-nav li {
     box-sizing: border-box;
-    line-height: 35px;
+    line-height: 40px;
     display: block;
-    width: 100%;
+    width: 100vw;
     color: var(--light);
     letter-spacing: 1px;
     border-top: 1px solid var(--primary);
-    text-align: end;
-    padding-right: 10px;
+    text-align: center;
   }
   /* Toggle Show/Hide Menu */
   #hamitems {
@@ -370,30 +365,71 @@ aside li {
   #hamburger {
     display: none;
   }
-
-  /*signup.html*/
-  .signup-form {
-    top: 75px;
-    position: relative;
+  /* #container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.2fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr 1.5fr 1fr 0.2fr;
+    grid-template-areas:
+      "hero hero hero hero hero"
+      ". leftmain . centermain ."
+      ". rightmain rightmain rightmain ."
+      "footer footer footer footer footer";
+    row-gap: 3%;
+  } */
+  #home-container {
+    grid-template-columns: 1fr 1fr 0.2fr 1fr 1fr;
+    grid-template-rows: 1.5fr 1.5fr 0.2fr;
+    grid-template-areas:
+      ". leftmain . centermain ."
+      ". rightmain rightmain rightmain ."
+      ". . . . .";
+    row-gap: 3%;
+  }
+  .right-main {
+    width: 325px;
+  }
+  footer {
+    clear: both;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    grid-template-areas:
+      "footcenter footcenter footcenter"
+      "footright footright footright"
+      "footleft footleft footleft";
+  }
+  footer div {
+    padding-top: 10px;
+  }
+}
+/*display for all screen sixes below 750px, taking into account most mobile devices. */
+@media screen and (max-width: 750px) {
+  #container {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0;
+  }
+  #home-container {
+    grid-template-columns: 0.8fr;
+    grid-template-rows: 1.5fr 1.5fr 1.5fr 0.2fr;
+    grid-template-areas:
+      "leftmain"
+      "centermain"
+      "rightmain"
+      ".";
+    margin-bottom: 10px;
     margin: 0 auto;
   }
-  aside {
-    display: none;
+  .home-div {
+    width: 325px;
   }
 }
-/*For screens with a max with of 900px and down (Tablets)*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 350px) {
   #logo {
-    font-size: 200%;
+    font-size: 120%;
   }
-  #header-nav {
-    width: 100%;
-  }
-}
-
-/*For screens with a max width of 450px and down (mobile devices)*/
-@media screen and (max-width: 450px;) {
-  #logo {
-    font-size: 150%;
+  .home-div {
+    width: 250px !important;
+    height: 500px;
+    border-radius: 0;
   }
 }
