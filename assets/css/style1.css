@@ -101,12 +101,12 @@ a {
   clear: both;
   height: 100vh;
   display: grid;
-  grid-template-columns: 25px 1fr 1fr 1fr 25px;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.5fr 2fr 0.2fr;
   grid-template-areas:
-    "hero hero hero hero hero"
-    ". main main main ."
-    "footer footer footer footer footer";
+    "hero hero hero"
+    "main main main "
+    "footer footer footer";
   column-gap: 3%;
 }
 
@@ -403,7 +403,7 @@ footer h3 {
 /*display for all screen sixes below 750px, taking into account most mobile devices. */
 @media screen and (max-width: 750px) {
   #container {
-    grid-template-columns: 5px 1fr 1fr 1fr 5px;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 0;
   }
   #home-container {
