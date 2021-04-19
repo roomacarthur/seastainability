@@ -407,7 +407,7 @@ footer h3 {
     column-gap: 0;
   }
   #home-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 0.8fr;
     grid-template-rows: 1.5fr 1.5fr 1.5fr 0.2fr;
     grid-template-areas:
       "leftmain"
@@ -415,10 +415,19 @@ footer h3 {
       "rightmain"
       ".";
     margin-bottom: 10px;
+    margin: 0 auto;
   }
   .home-div {
     width: 325px;
   }
 }
 @media screen and (max-width: 350px) {
+  #logo {
+    font-size: 120%;
+  }
+  .home-div {
+    width: 250px !important;
+    height: 500px;
+    border-radius: 0;
+  }
 }
