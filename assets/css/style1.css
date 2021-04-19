@@ -75,12 +75,13 @@ a {
   border-radius: 0.25rem;
   box-sizing: border-box;
 }
-
+/*Underline on hover of nav items.*/
 .navlink:hover {
   padding-bottom: 0.2em;
   border-bottom: 0.2em solid #2d767f;
   box-sizing: border-box;
 }
+/*Colour swap on hover of "contact us" nav item.*/
 #header-nav #contact-us:hover {
   background-color: #ecfffb;
   color: #2d767f;
@@ -101,15 +102,25 @@ a {
   height: 100vh;
   display: grid;
   grid-template-columns: 25px 1fr 1fr 1fr 25px;
-  grid-template-rows: 0.5fr 1.5fr 0.2fr;
+  grid-template-rows: 0.5fr 2fr 0.2fr;
   grid-template-areas:
     "hero hero hero hero hero"
-    ". leftmain centermain rightmain ."
+    ". main main main ."
     "footer footer footer footer footer";
   column-gap: 3%;
 }
+
+#home-container {
+  grid-area: main;
+  clear: both;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "leftmain centermain rightmain";
+  column-gap: 3%;
+}
 /*center divs within grid allignment for main content area.*/
-#container div {
+#home-container div {
   margin: 0 auto;
 }
 #hero {
@@ -154,11 +165,10 @@ a {
   color: var(--light);
   width: 90%;
   padding: 0 25px;
+  margin: 0 auto;
 }
-
-#left-main,
-#right-main,
-#center-main {
+/*Main Styling for content on index.html*/
+.home-div {
   background-color: var(--darkblue);
   color: var(--light);
   border-radius: 10px;
@@ -188,19 +198,17 @@ a {
   font-weight: 400;
 }
 /*Grid alignment for 3 main Div's*/
-#left-main {
+.left-main {
   grid-area: leftmain;
 }
-#right-main {
+.right-main {
   grid-area: rightmain;
 }
-#center-main {
+.center-main {
   grid-area: centermain;
 }
 /*Main Content Hover animation */
-#left-main:hover,
-#right-main:hover,
-#center-main:hover {
+.home-div:hover {
   animation-name: maindiv-zoom;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
@@ -214,14 +222,44 @@ a {
   }
 }
 
+/*Our Mission Styling*/
+/*Grid layout of main content on ourmission.html*/
+#mission-content {
+  grid-area: main; /*places this new grid layout into the main section of the overall page grid layout.*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "missionvideo missionvideo missionvideo missionvideo"
+    ". missionleft missionright .";
+  row-gap: 3%;
+  column-gap: 3%;
+  text-align: center;
+}
+.mission-video {
+  grid-area: missionvideo;
+  margin: 0 auto;
+}
+.mission-left {
+  grid-area: missionleft;
+}
+.mission-right {
+  grid-area: missionright;
+}
+
+/*Ouroceans.html & Doyourpart.html styling(Both same layout.)*/
+#page-content {
+  grid-area: main;
+}
 /*footer styling*/
 
-/*sdasd*/
+/*footer*/
 footer {
   grid-area: footer;
   line-height: 25px;
   padding-top: 25px;
   padding-bottom: 25px;
+  text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.5fr;
@@ -325,22 +363,31 @@ footer h3 {
   #hamburger {
     display: none;
   }
-  #container {
-    clear: both;
-    height: 100vh;
+  /* #container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 0.2fr 1fr 1fr;
     grid-template-rows: 0.5fr 1.5fr 1.5fr 1fr 0.2fr;
     grid-template-areas:
       "hero hero hero hero hero"
-      ". . leftmain . ."
-      ". . centermain . ."
-      ". . rightmain . ."
+      ". leftmain . centermain ."
+      ". rightmain rightmain rightmain ."
       "footer footer footer footer footer";
-    column-gap: 3%;
-    row-gap: 25px;
+    row-gap: 3%;
+  } */
+  #home-container {
+    grid-template-columns: 1fr 1fr 0.2fr 1fr 1fr;
+    grid-template-rows: 1.5fr 1.5fr 0.2fr;
+    grid-template-areas:
+      ". leftmain . centermain ."
+      ". rightmain rightmain rightmain ."
+      ". . . . .";
+    row-gap: 3%;
+  }
+  .right-main {
+    width: 325px;
   }
   footer {
+    clear: both;
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.5fr 0.5fr 0.5fr;
@@ -353,5 +400,25 @@ footer h3 {
     padding-top: 10px;
   }
 }
-@media screen and (max-width: 600px) {
+/*display for all screen sixes below 750px, taking into account most mobile devices. */
+@media screen and (max-width: 750px) {
+  #container {
+    grid-template-columns: 5px 1fr 1fr 1fr 5px;
+    column-gap: 0;
+  }
+  #home-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 1.5fr 1.5fr 0.2fr;
+    grid-template-areas:
+      "leftmain"
+      "centermain"
+      "rightmain"
+      ".";
+    margin-bottom: 10px;
+  }
+  .home-div {
+    width: 325px;
+  }
+}
+@media screen and (max-width: 350px) {
 }
