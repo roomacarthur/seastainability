@@ -121,7 +121,7 @@ For testing I viewed the site on multiple devices and browsers and compiled a sp
 ### Bugs & Fixes:
 
 - ~~On mobile View the Border top for nav items doesn't fit 100% of screen width.~~ _fixed_
-  - _Adjusted width of the li witin the mobile menu to 100vw, this moved the border-top to fill 100% opf the scree._
+  - _Adjusted width of the li witin the mobile menu to 100vw, this moved the border-top to fill 100% of the screen._
 
 ## Deployment
 

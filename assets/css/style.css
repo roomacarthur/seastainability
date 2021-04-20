@@ -122,6 +122,7 @@ a {
 /*center divs within grid allignment for main content area.*/
 #home-container div {
   margin: 0 auto;
+  border-radius: 5px;
 }
 #hero {
   grid-area: hero;
@@ -253,6 +254,74 @@ a {
 #page-content {
   grid-area: main;
 }
+
+/*Contact Us Page Styling*/
+.form-container {
+  grid-area: main;
+  background-color: rgba(25, 71, 79, 0.8);
+  height: 600px;
+  width: 600px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.contactus-form {
+  position: absolute;
+  margin: 0 auto;
+  color: var(--light);
+  width: inherit;
+  height: inherit;
+}
+.formlabel {
+  color: var(--light);
+  padding: 15px 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.messageinput input[type="text"] {
+  height: 50px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  color: var(--light);
+  margin: 10px;
+  width: 90%;
+  height: 2rem;
+  border: 1px solid var(--darkblue);
+  border-radius: 0.4rem;
+  color: var(--darkblue);
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 100%;
+}
+input[type="text"]:hover,
+input[type="email"]:hover {
+  background-color: var(--skyblue);
+}
+
+input[type="submit"] {
+  clear: both;
+  position: relative;
+}
+.formbutton {
+  padding-left: ;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: var(--skyblue);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 500;
+}
+.formbutton:hover {
+  background-color: var(--light);
+}
+
 /*footer styling*/
 
 /*footer*/
@@ -425,7 +494,7 @@ footer h3 {
     width: 325px;
   }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 425px) {
   #logo {
     font-size: 120%;
   }
@@ -433,5 +502,28 @@ footer h3 {
     width: 250px !important;
     height: 500px;
     border-radius: 0;
+  }
+  .contactus-form {
+    margin: 0 auto;
+  }
+  .form-container {
+    width: 300px;
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 3px;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    color: var(--light);
+    width: 90%;
+    height: 2rem;
+    border: 1px solid var(--darkblue);
+    color: var(--darkblue);
+    padding: 5px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 100%;
   }
 }
