@@ -258,7 +258,9 @@ a {
   grid-area: main;
   width: 100%;
   margin: 0 auto;
+  text-align: center;
 }
+
 .doyourpart-content {
   width: 90%;
   padding: 10px 25px;
@@ -272,6 +274,13 @@ a {
 .doyourpart-content p {
   letter-spacing: 1px;
   font-weight: 500;
+}
+.doyourpart-hr {
+  margin: 5px 0;
+  background-color: var(--darkblue);
+  height: 2px;
+  width: 100%;
+  z-index: 3;
 }
 .doyourpart-left {
   clear: right;
@@ -353,7 +362,6 @@ input[type="submit"] {
   position: relative;
 }
 .formbutton {
-  padding-left: ;
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
@@ -563,6 +571,27 @@ footer h3 {
     font-weight: 500;
     font-size: 100%;
   }
+  /*Code credit:https://techstacker.com/how-to-responsive-youtube-videos/ */
+  /*Helping make the Youtube embeded Video responsive on mobile devices.*/
+  .youtube-video-doyourpart {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .youtube-video-doyourpart::after {
+    display: block;
+    content: "";
+    padding-top: 56.25%;
+  }
+
+  .youtube-video-doyourpart iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 @media screen and (max-width: 425px) {
   #logo {
@@ -572,5 +601,10 @@ footer h3 {
     width: 250px !important;
     height: 500px;
     border-radius: 0;
+  }
+  .doyourpart-content {
+    text-align: center;
+    float: none;
+    margin: 10 auto;
   }
 }
