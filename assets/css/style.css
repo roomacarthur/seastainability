@@ -262,7 +262,7 @@ a {
 }
 
 .doyourpart-content {
-  width: 90%;
+  width: 60%;
   padding: 10px 25px;
   border: 1px solid var(--darkblue);
   border-radius: 5px;
@@ -286,13 +286,11 @@ a {
   clear: right;
   float: left;
   text-align: right;
-  width: 60%;
 }
 .doyourpart-right {
   clear: left;
   float: right;
   text-align: left;
-  width: 60%;
 }
 .doyourpart-center {
   clear: both;
@@ -592,6 +590,17 @@ footer h3 {
     width: 100%;
     height: 100%;
   }
+  .doyourpart-content {
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .doyourpart-left,
+  .doyourpart-right {
+    clear: none;
+  }
 }
 @media screen and (max-width: 425px) {
   #logo {
@@ -601,10 +610,5 @@ footer h3 {
     width: 250px !important;
     height: 500px;
     border-radius: 0;
-  }
-  .doyourpart-content {
-    text-align: center;
-    float: none;
-    margin: 10 auto;
   }
 }
