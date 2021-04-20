@@ -339,6 +339,7 @@ footer h3 {
   /* Break down menu items into vertical */
   #header-nav ul {
     width: 100%;
+    text-align: center;
   }
   #logo {
     font-size: 150%;
@@ -350,8 +351,9 @@ footer h3 {
     width: 100vw;
     color: var(--light);
     letter-spacing: 1px;
-    border-top: 1px solid var(--primary);
+    border-top: 1px solid var(--darkblue);
     text-align: center;
+    padding-left: 0;
   }
   /* Toggle Show/Hide Menu */
   #hamitems {

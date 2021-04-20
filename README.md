@@ -120,6 +120,8 @@ For testing I viewed the site on multiple devices and browsers and compiled a sp
 
 ### Bugs & Fixes:
 
+- ~~On mobile View the Border top for nav items doesn't fit 100% of screen width.~~ _fixed_
+
 ## Deployment
 
 ### Deployment to GitHub Pages
