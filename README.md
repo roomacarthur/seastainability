@@ -89,8 +89,10 @@ The basic structure of SEASTAINABILITY was sketched out on paper and then with t
 
 - [Home](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-home.png)
 - [Our Mission](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-ourmission.png)
-- [Our Oceans](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-ouroceans.png)
-- [Do Your Part](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-doyourpart.png)
+- [Our Oceans](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-ouroceans-1.png)
+  - [~~Our Oceans~~](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-ouroceans.png)
+- [Do Your Part](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-doyourpart-1.png)
+  - [~~Do Your Part~~](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-doyourpart.png)
 - [Contact Us](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-contactus.png)
 
 #### Tablet
