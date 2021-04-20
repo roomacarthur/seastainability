@@ -495,16 +495,6 @@ footer h3 {
   .home-div {
     width: 325px;
   }
-}
-@media screen and (max-width: 425px) {
-  #logo {
-    font-size: 120%;
-  }
-  .home-div {
-    width: 250px !important;
-    height: 500px;
-    border-radius: 0;
-  }
   .contactus-form {
     margin: 0 auto;
   }
@@ -527,5 +517,15 @@ footer h3 {
     letter-spacing: 1px;
     font-weight: 500;
     font-size: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  #logo {
+    font-size: 120%;
+  }
+  .home-div {
+    width: 250px !important;
+    height: 500px;
+    border-radius: 0;
   }
 }
