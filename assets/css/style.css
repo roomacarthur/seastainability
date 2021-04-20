@@ -339,9 +339,10 @@ footer {
 #left-footer {
   grid-area: footleft;
 }
-#left-footer a h3:hover {
-  padding-bottom: 0.2em;
-  border-bottom: 4px solid #2d767f;
+#left-footer h3:hover {
+  color: #f3558e;
+  transition: all 1s;
+  transform: rotateX(360deg);
 }
 footer h3 {
   /* padding: 0 10px 0 10px; */
@@ -404,6 +405,7 @@ footer h3 {
     font-size: 2em;
     right: 0;
     line-height: 70px;
+    cursor: pointer;
   }
   /* Break down menu items into vertical */
   #header-nav ul {
@@ -467,7 +469,7 @@ footer h3 {
     grid-template-areas:
       "footcenter footcenter footcenter"
       "footright footright footright"
-      "footleft footleft footleft";
+      ". footleft .";
   }
   footer div {
     padding-top: 10px;
