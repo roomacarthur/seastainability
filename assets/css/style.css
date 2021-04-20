@@ -250,60 +250,77 @@ a {
   grid-area: missionright;
 }
 
-/*Ouroceans.html & Doyourpart.html styling(Both same layout.)*/
 #page-content {
   grid-area: main;
 }
-.doyourpart-page-content {
+.page-content {
   grid-area: main;
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
+.content img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  position: relative;
+}
+.content-left img {
+  float: left;
+  margin-right: 10px;
+}
+.content-right img {
+  float: right;
+  clear: right;
+}
+.ourmission-content-left {
+  text-align: left !important;
+}
 
-.doyourpart-content {
+.content {
   width: 60%;
   padding: 10px 25px;
   border: 1px solid var(--darkblue);
   border-radius: 5px;
   margin: 10px 25px;
 }
-.doyourpart-content h3 {
+.content h3 {
   padding-bottom: 10px;
 }
-.doyourpart-content p {
+.content p {
   letter-spacing: 1px;
   font-weight: 500;
 }
-.doyourpart-hr {
+.content-hr {
   margin: 5px 0;
   background-color: var(--darkblue);
   height: 2px;
   width: 100%;
   z-index: 3;
 }
-.doyourpart-left {
+.content-left {
   clear: right;
   float: left;
   text-align: right;
 }
-.doyourpart-right {
+.content-right {
   clear: left;
   float: right;
   text-align: left;
 }
-.doyourpart-center {
+.content-center {
   clear: both;
   margin: 0 auto;
   width: 25%;
   text-align: center;
 }
-.doyourpart-center a {
+.content-center a {
   text-decoration: none;
   color: var(--darkblue);
   font-weight: 500;
 }
-.doyourpart-center a:hover {
+.content-center a:hover {
   border-bottom: 1px solid var(--darkblue);
 }
 
@@ -571,35 +588,53 @@ footer h3 {
   }
   /*Code credit:https://techstacker.com/how-to-responsive-youtube-videos/ */
   /*Helping make the Youtube embeded Video responsive on mobile devices.*/
-  .youtube-video-doyourpart {
+  .youtube-video {
     position: relative;
     overflow: hidden;
     width: 100%;
   }
 
-  .youtube-video-doyourpart::after {
+  .youtube-video::after {
     display: block;
     content: "";
     padding-top: 56.25%;
   }
 
-  .youtube-video-doyourpart iframe {
+  .youtube-video iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
   }
-  .doyourpart-content {
+  .content {
     text-align: center;
     float: none;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .doyourpart-left,
-  .doyourpart-right {
+  .content-left,
+  .content-right {
     clear: none;
+  }
+  .ourmission-content-left,
+  .ourmission-content-right {
+    text-align: center !important;
+  }
+  .content-left img,
+  .content-right img {
+    clear: none;
+    float: none;
+    margin: 0 auto;
+  }
+  .content-image {
+    margin: 0 auto;
+    position: relative;
+  }
+  .content p {
+    padding-top: 10px;
+    text-align: center;
   }
 }
 @media screen and (max-width: 425px) {
