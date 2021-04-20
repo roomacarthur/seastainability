@@ -54,13 +54,13 @@ Bring interest into the habbits of being more sustainable to protect our oceans,
 
 ## Design
 
-The basis of this design
-
 ### Design Brief:
+
+For SEASTAINABILITY the whole idea is to provide simple and easy to read information on how to become more sustainable to help protect and save our oceans. The overall design principle for the site is to be simple and follow a stlye that has an essence of sustainablity about it, using relative colours and typography. The sites demographic is so vast that the site has to appeal to everyone that views it from young to old and all beliefs. The site will remain neutral but have a simplistic modern feel to it.
 
 ### Typography:
 
-Following along with the design brief I want the user to have a very friendly and eco sensible experiance for this I have picked Two fonts Both from the Google Fonts library. Fonts used are Lato and Roboto.
+Following along with the design brief I want the user to have a very friendly and eco sensible experiance for this I have picked Two fonts Both from the Google Fonts library. Fonts used are [Lato](https://fonts.google.com/specimen/Lato?query=lato) and [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto).
 
 ### Colours:
 
