@@ -32,7 +32,7 @@
 
 ## The Why
 
-Bring interest into the habbits of being more sustainable to protect our oceans, Provide people with quick and easy facts and information to strengthen their opinions.
+Bring interest into the habbits of being more sustainable to protect our oceans, Provide people with quick and easy facts and information to strengthen their opinions and every day actions.
 
 ## (UX) User Experiance
 
