@@ -77,7 +77,11 @@ All Images used within this site have beenn provided with [Pexels](https://pexel
 all images have been compressed with the use of [Squoosh](https://squoosh.app) - images with an opaque overlay have been compressed heavier as the quality of the image isn't as important.
 The Favicon used for the site was taken from [Favicon.cc](https://www.favicon.cc/?action=icon&file_id=690331)
 
-### Wireframes
+### Content:
+
+-Do your part page content was taken from [National Geographic](https://www.nationalgeographic.com/environment/article/10-things-you-can-do-to-save-the-ocean)
+
+### Wireframes:
 
 The basic structure of SEASTAINABILITY was sketched out on paper and then with the use of the software [BALSAMIQ](https://balsamiq.com/). I was able to take the sketches and turn them into a more professional and realistic looking guide.
 

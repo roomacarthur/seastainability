@@ -254,6 +254,51 @@ a {
 #page-content {
   grid-area: main;
 }
+.doyourpart-page-content {
+  grid-area: main;
+  width: 100%;
+  margin: 0 auto;
+}
+.doyourpart-content {
+  width: 90%;
+  padding: 10px 25px;
+  border: 1px solid var(--darkblue);
+  border-radius: 5px;
+  margin: 10px 25px;
+}
+.doyourpart-content h3 {
+  padding-bottom: 10px;
+}
+.doyourpart-content p {
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.doyourpart-left {
+  clear: right;
+  float: left;
+  text-align: right;
+  width: 60%;
+}
+.doyourpart-right {
+  clear: left;
+  float: right;
+  text-align: left;
+  width: 60%;
+}
+.doyourpart-center {
+  clear: both;
+  margin: 0 auto;
+  width: 25%;
+  text-align: center;
+}
+.doyourpart-center a {
+  text-decoration: none;
+  color: var(--darkblue);
+  font-weight: 500;
+}
+.doyourpart-center a:hover {
+  border-bottom: 1px solid var(--darkblue);
+}
 
 /*Contact Us Page Styling*/
 .form-container {
