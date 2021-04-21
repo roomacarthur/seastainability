@@ -61,35 +61,35 @@ a {
   list-style-type: none;
 }
 #contact-us a {
-  color: #ecfffb !important;
+  color: var(--light) !important;
 }
 #header-nav a {
-  color: #2d767f;
+  color: var(--primary);
   text-decoration: none;
 }
 #header-nav #contact-us {
-  background-color: #2d767f;
-  color: #ecfffb;
+  background-color: var(--primary);
+  color: var(--light);
   padding: 0.25rem;
-  border: 2px solid #2d767f;
+  border: 2px solid var(--primary);
   border-radius: 0.25rem;
   box-sizing: border-box;
 }
 /*Underline on hover of nav items.*/
 .navlink:hover {
   padding-bottom: 0.2em;
-  border-bottom: 0.2em solid #2d767f;
+  border-bottom: 0.2em solid var(--primary);
   box-sizing: border-box;
 }
 /*Colour swap on hover of "contact us" nav item.*/
 #header-nav #contact-us:hover {
-  background-color: #ecfffb;
-  color: #2d767f;
+  background-color: var(--skyblue);
+  color: var(--primary);
 }
 /*active page underline on navbar*/
 .active {
   padding-bottom: 0.2em;
-  border-bottom: 0.2em solid #2d767f;
+  border-bottom: 0.2em solid var(--primary);
 }
 /*Hide hamburger in desktop view.*/
 #hamburger,
