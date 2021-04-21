@@ -452,7 +452,6 @@ footer h3 {
 /*Media Queries*/
 
 /*For Tablet Sized screens max width of 1200px*/
-
 @media screen and (max-width: 1200px) {
   /*Nav bar changes to hamburger menu*/
   #hamitems {
@@ -506,17 +505,6 @@ footer h3 {
   #hamburger {
     display: none;
   }
-  /* #container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 0.2fr 1fr 1fr;
-    grid-template-rows: 0.5fr 1.5fr 1.5fr 1fr 0.2fr;
-    grid-template-areas:
-      "hero hero hero hero hero"
-      ". leftmain . centermain ."
-      ". rightmain rightmain rightmain ."
-      "footer footer footer footer footer";
-    row-gap: 3%;
-  } */
   #home-container {
     grid-template-columns: 1fr 1fr 0.2fr 1fr 1fr;
     grid-template-rows: 1.5fr 1.5fr 0.2fr;
@@ -645,5 +633,8 @@ footer h3 {
     width: 250px !important;
     height: 500px;
     border-radius: 0;
+  }
+  .content {
+    width: 70%;
   }
 }
