@@ -29,6 +29,7 @@
 - [Technologies](https://github.com/roomacarthur/seastainability#technologies)
 - [Testing](https://github.com/roomacarthur/seastainability#testing)
 - [Deployment](https://github.com/roomacarthur/seastainability#deployment)
+- [Credits](https://github.com/roomacarthur/seastainability#credits)
 
 ## The Why
 
@@ -79,7 +80,6 @@ The Favicon used for the site was taken from [Favicon.cc](https://www.favicon.cc
 
 ### Content:
 
-- Do your part page content was taken from [National Geographic](https://www.nationalgeographic.com/environment/article/10-things-you-can-do-to-save-the-ocean)
 - Page content is static and won't change, when desiging the layout of pages this was taken into consideration. Page content can be found [HERE](https://docs.google.com/document/d/18xpv4xm6ch3qhcZeHQ55RjGOaYjjJ777VEZF4EyxMzs/edit?usp=sharing)
 
 ### Wireframes:
@@ -173,3 +173,8 @@ If you wish to experiment with the code freely, you can achieve this by forking 
 1. Navigate to the repository [roomacarthur/seastainability](https://github.com/roomacarthur/seastainability).
 2. In the top right of the page, below your profile you should see a "Fork" button. Simply click on this.
 3. A copy of the repository will then be added to your own Repositories Page.
+
+## Credits
+
+1. [National Geographic](https://www.nationalgeographic.com/environment/article/10-things-you-can-do-to-save-the-ocean) - Content for doyourpart.html
+2. [Teach Stacker](https://techstacker.com/how-to-responsive-youtube-videos/) - Making the Embeded youtube Videos responsive for smaller screen sizes
