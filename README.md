@@ -79,7 +79,8 @@ The Favicon used for the site was taken from [Favicon.cc](https://www.favicon.cc
 
 ### Content:
 
--Do your part page content was taken from [National Geographic](https://www.nationalgeographic.com/environment/article/10-things-you-can-do-to-save-the-ocean)
+- Do your part page content was taken from [National Geographic](https://www.nationalgeographic.com/environment/article/10-things-you-can-do-to-save-the-ocean)
+- Page content is static and won't change, when desiging the layout of pages this was taken into consideration. Page content can be found [HERE](https://docs.google.com/document/d/18xpv4xm6ch3qhcZeHQ55RjGOaYjjJ777VEZF4EyxMzs/edit?usp=sharing)
 
 ### Wireframes:
 
