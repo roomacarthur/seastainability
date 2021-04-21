@@ -53,6 +53,11 @@ Bring interest into the habbits of being more sustainable to protect our oceans,
     - Fast loading packets to make the site available to everyone.
     - Responsive design.
 
+### Future ideas:
+
+- Impliment a newsletter signup widget that is stuck to the bottom of all pages.
+- sticky header so the navbar is accessable from all points of the page.
+
 ## Design
 
 ### Design Brief:
