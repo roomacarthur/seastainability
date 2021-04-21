@@ -66,10 +66,10 @@ Following along with the design brief I want the user to have a very friendly an
 
 To keep the colours inline with the design brief and with the help of [Colorinspo](https://colorsinspo.com/color-palettes/search/?sterm=%232d767f) I have decided to go with the netural colours listed below.
 
-- #1e6262 - Dark
-- #2d767f - Blue
-- #b4f1f1 - Light.
-- #ecfffb - background
+- #1e6262 - Darkblue
+- #2d767f - primary
+- #b4f1f1 - skyblue
+- #ecfffb - light
 
 ### Images:
 
