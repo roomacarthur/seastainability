@@ -121,7 +121,17 @@ The basic structure of SEASTAINABILITY was sketched out on paper and then with t
 
 ## Testing:
 
-For testing I viewed the site on multiple devices and browsers and compiled a spreadsheet with all the results. Using the results from the tests I was able to impliment fixes for some of the bugs found.
+For testing I will use multiple resources:
+
+1. [Chrome Dev Tools - Lighthouse](https://developers.google.com/web/tools/lighthouse/)
+2. [W3 Markup Validation Service](https://validator.w3.org/)
+3. [W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+4. [Seastainability testing sheet](https://docs.google.com/spreadsheets/d/1j5fTc2kvFslpWCKUyjA68CdsLZiLo4CTNZQrS0LRafA/edit?usp=sharing)
+
+Using the above resources I will test all individual pages and note all bugts found in [Bugs & Fixes](https://github.com/roomacarthur/seastainability#bugs--fixes).
+I will also use peer code review within the slack community and my collegues for a "fresh set of eyes" to help pick out any issues I may miss.
+
+With the vigerous testing and fresh eyes I hope to cover all issues that may arrise and implement fast fixes.
 
 ### Testing Results:
 
