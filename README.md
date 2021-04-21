@@ -159,7 +159,8 @@ indepth testing has been carried out, all results are shown [HERE](https://docs.
 
 - ~~On mobile View the Border top for nav items doesn't fit 100% of screen width.~~ _fixed_
   - _Adjusted width of the li witin the mobile menu to 100vw, this moved the border-top to fill 100% of the screen._
-- Screen sizes smaller than 250px ourmission.html images are off center.
+- ~~Screen sizes smaller than 250px ourmission.html images are off center.~~ _fixed_
+  - _Adjusted div width, to allow for snugger fit on page centering up all content._
 - upon validating ourmission.html the following errors where found.
   - [Error 1](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/ourmission-error1.png) _fixed_
   - [Error 2](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/ourmission-error2.png) _fixed_
