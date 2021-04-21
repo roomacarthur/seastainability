@@ -40,7 +40,7 @@ Bring interest into the habbits of being more sustainable to protect our oceans,
 
   - #### First Time User:
     - To be captivated with the content.
-    - To sign up for the monthly news letter.
+    - ~~To sign up for the monthly news letter.~~
     - To have a better understanding on how to protect our oceans.
     - To have find the site easy to navigate.
   - #### Returning User:
@@ -49,7 +49,7 @@ Bring interest into the habbits of being more sustainable to protect our oceans,
   - #### Issues for Users to overcome:
     - Fact checked information to provide trustworthy content.
     - Ease of navigation.
-    - Fast loating packets to make the site available to everyone.
+    - Fast loading packets to make the site available to everyone.
     - Responsive design.
 
 ## Design
