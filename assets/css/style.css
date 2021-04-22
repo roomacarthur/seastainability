@@ -9,7 +9,7 @@
   --skyblue: #b4f1f1;
 }
 
-/*Root styles for the page, Reset browser added styles.* {} targets all HTML elements.*/
+/*Root styles for the page, Reset browser added styles. targets all HTML elements.*/
 * {
   margin: 0;
   padding: 0;
