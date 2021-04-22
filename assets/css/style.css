@@ -104,7 +104,7 @@ a {
   grid-template-rows: 0.5fr 2fr 0.2fr;
   grid-template-areas:
     "hero hero hero"
-    "main main main "
+    "main main main"
     "footer footer footer";
   column-gap: 3%;
 }
@@ -172,10 +172,8 @@ a {
   background-color: var(--darkblue);
   color: var(--light);
   border-radius: 10px;
-  width: 100%;
+  width: 325px;
   height: 475px;
-  min-width: 325px;
-  max-width: 400px;
 }
 .div-content {
   text-align: center;
@@ -606,7 +604,7 @@ footer h3 {
 }
 @media screen and (max-width: 425px) {
   #logo {
-    font-size: 120%;
+    font-size: 100%;
   }
   .home-div {
     width: 250px !important;
