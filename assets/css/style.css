@@ -113,10 +113,9 @@ a {
   grid-area: main;
   clear: both;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 0.1fr 1fr 1fr 1fr 0.1fr;
   grid-template-rows: 1fr;
-  grid-template-areas: "leftmain centermain rightmain";
-  column-gap: 3%;
+  grid-template-areas: ". leftmain centermain rightmain .";
 }
 /*Hero element styling, this is the same on all pages.*/
 #hero {
@@ -172,7 +171,7 @@ a {
   background-color: var(--darkblue);
   color: var(--light);
   border-radius: 10px;
-  width: 325px;
+  width: 80%;
   height: 475px;
 }
 .div-content {
@@ -427,7 +426,11 @@ footer h3 {
 }
 
 /*Media Queries*/
-
+@media screen and (max-width: 1300px) {
+  .home-div {
+    width: 325px;
+  }
+}
 /*For Tablet Sized screens max width of 1200px*/
 @media screen and (max-width: 1200px) {
   /*Nav bar changes to hamburger menu*/
@@ -490,9 +493,6 @@ footer h3 {
       ". rightmain rightmain rightmain ."
       ". . . . .";
     row-gap: 3%;
-  }
-  .right-main {
-    width: 325px;
   }
   footer {
     clear: both;

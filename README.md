@@ -171,7 +171,7 @@ indepth testing has been carried out, all results are shown [HERE](https://docs.
   - [Error 1](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/ourmission-error1.png) _fixed_
   - [Error 2](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/ourmission-error2.png) _fixed_
 - ~~index.html content is squeezed when viewing on small laptop(1280 x 720).~~ _fixed_[Evidence](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/smalllaptopscreen-homepage-error.png)
-  - _div had wrong coding for max and min width's from during development fase, this was altered by just setting a static width._
+  - _div had wrong coding for max and min width's from during development fase, this was altered by adding aditional columns to CSS grid._
 
 ## Deployment
 
