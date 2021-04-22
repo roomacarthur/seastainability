@@ -41,6 +41,7 @@ a {
   font-size: 260%;
   float: left;
   padding-left: 1.6rem;
+  color: var(--darkblue);
 }
 #header-nav,
 #logo {
@@ -53,20 +54,18 @@ a {
   float: right;
 }
 #header-nav li {
+  float: left; /*allows text to align from the left after being floated right*/
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 1px;
-  float: left;
   padding-left: 1.6rem;
   list-style-type: none;
-}
-#contact-us a {
-  color: var(--light) !important;
 }
 #header-nav a {
   color: var(--primary);
   text-decoration: none;
 }
+/*Styling for contact us link. Seperate style from other nav elements.*/
 #header-nav #contact-us {
   background-color: var(--primary);
   color: var(--light);
@@ -86,7 +85,7 @@ a {
   background-color: var(--skyblue);
   color: var(--primary);
 }
-/*active page underline on navbar*/
+/*Underline active page on nav items.*/
 .active {
   padding-bottom: 0.2em;
   border-bottom: 0.2em solid var(--primary);
@@ -96,7 +95,7 @@ a {
 .mobile-menu {
   display: none;
 }
-/*main content styling.*/
+/*General page layout, CSS Grid used for ease when compiling responsive design.*/
 #container {
   clear: both;
   height: 100vh;
@@ -109,7 +108,7 @@ a {
     "footer footer footer";
   column-gap: 3%;
 }
-
+/*stylign for index.html main content.*/
 #home-container {
   grid-area: main;
   clear: both;
@@ -119,11 +118,7 @@ a {
   grid-template-areas: "leftmain centermain rightmain";
   column-gap: 3%;
 }
-/*center divs within grid allignment for main content area.*/
-#home-container div {
-  margin: 0 auto;
-  border-radius: 5px;
-}
+/*Hero element styling, this is the same on all pages.*/
 #hero {
   grid-area: hero;
   padding-bottom: 50px;
@@ -137,6 +132,7 @@ a {
   z-index: 1;
   object-fit: cover;
 }
+/*Div overlay over hero img to allow for an opaque colour change. */
 #hero-cover {
   width: 100%;
   height: 300px;
@@ -155,6 +151,7 @@ a {
   animation-duration: 5s;
   animation-fill-mode: forwards;
 }
+/*Zoom hero text on page load.*/
 @keyframes covertext-zoom {
   from {
     transform: scale(0.5);
@@ -169,6 +166,7 @@ a {
   padding: 0 25px;
   margin: 0 auto;
 }
+
 /*Main Styling for content on index.html*/
 .home-div {
   background-color: var(--darkblue);
@@ -210,12 +208,19 @@ a {
 .center-main {
   grid-area: centermain;
 }
+/*center divs within grid allignment for main content area.*/
+#home-container div {
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
 /*Main Content Hover animation */
 .home-div:hover {
   animation-name: maindiv-zoom;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
+/*on mouse hover div's scale up, emphasises the fact they are a link.*/
 @keyframes maindiv-zoom {
   from {
     transform: scale(1);
@@ -224,37 +229,10 @@ a {
     transform: scale(1.05);
   }
 }
+/*Styling for */
 
-/*Our Mission Styling*/
-/*Grid layout of main content on ourmission.html*/
-#mission-content {
-  grid-area: main; /*places this new grid layout into the main section of the overall page grid layout.*/
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas:
-    "missionvideo missionvideo missionvideo missionvideo"
-    ". missionleft missionright .";
-  row-gap: 3%;
-  column-gap: 3%;
-  text-align: center;
-}
-.mission-video {
-  grid-area: missionvideo;
-  margin: 0 auto;
-}
-.mission-left {
-  grid-area: missionleft;
-}
-.mission-right {
-  grid-area: missionright;
-}
-
-#page-content {
-  grid-area: main;
-}
 .page-content {
-  grid-area: main;
+  grid-area: main; /*places this content into main section of CSS grid layout.*/
   width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -431,12 +409,13 @@ footer h3 {
 .footer-socials i {
   margin: 0;
   padding: 0 10px 0 10px;
-  color: #1e6262;
+  color: var(--darkblue);
   font-size: 150%;
 }
 /*Social hover animation*/
 .footer-socials i:hover {
   animation-name: socials-zoom;
+  color: var(--primary);
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
