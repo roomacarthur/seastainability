@@ -43,20 +43,21 @@ Bring interest into the habbits of being more sustainable to protect our oceans,
     - To be captivated with the content.
     - ~~To sign up for the monthly news letter.~~
     - To have a better understanding on how to protect our oceans.
-    - To have find the site easy to navigate.
+    - To be able to navigate the site with ease.
   - #### Returning User:
     - To instantly know/remember how to navigate.
     - Find the information they require within as few actions as possible.
   - #### Issues for Users to overcome:
     - Fact checked information to provide trustworthy content.
     - Ease of navigation.
-    - Fast loading packets to make the site available to everyone.
-    - Responsive design.
+    - Fast loading pages to make the site available to everyone.
+    - Responsive design so the site can be viewd on all devices.
 
 ### Future ideas:
 
 - Impliment a newsletter signup widget that is stuck to the bottom of all pages.
 - sticky header so the navbar is accessable from all points of the page.
+- Add a Blog/RSS feed to keep people uptodate on relative articles and news.
 
 ## Design
 
