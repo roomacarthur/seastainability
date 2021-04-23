@@ -43,6 +43,7 @@ a {
   padding-left: 1.6rem;
   color: var(--darkblue);
 }
+/*set lineheight of whole header area.*/
 #header-nav,
 #logo {
   line-height: 75px;
