@@ -67,7 +67,7 @@ For SEASTAINABILITY the whole idea is to provide simple and easy to read informa
 
 ### Typography:
 
-Following along with the design brief I want the user to have a very friendly and eco sensible experiance for this I have picked Two fonts Both from the Google Fonts library. Fonts used are [Lato](https://fonts.google.com/specimen/Lato?query=lato) and [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto).
+Following along with the design brief I want the user to have a very friendly and eco sensible experiance for this I have picked Two fonts Both from the Google Fonts library. Fonts used are [Lato](https://fonts.google.com/specimen/Lato?query=lato)for headings and [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) for all written content.
 
 ### Colours:
 
