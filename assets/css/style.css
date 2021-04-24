@@ -52,7 +52,7 @@ a {
   padding-right: 1.6rem;
 }
 #header-nav ul {
-  float: right;
+  float: right; /*Send nav elements to the right hand side of the header.*/
 }
 #header-nav li {
   float: left; /*allows text to align from the left after being floated right*/
