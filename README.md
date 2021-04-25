@@ -37,7 +37,7 @@ Bring interest into the habbits of being more sustainable to protect our oceans,
 
 ## (UX) User Experiance
 
-Seastainability doesn't just have a target demographic, It in turn is aimed at anyone and everyone. The aim of the site is to bring interest to those who don't know a lot about the ocean and what effect we are having on it. For those who already have a good understanding of how we are affecting out oceans they should still be able to learn a little and understand what we are aiming to achieve with spreading knowledge.
+Seastainability doesn't just have a target demographic, It in turn is aimed at anyone and everyone. The aim of the site is to bring interest to those who don't know a lot about the ocean and what effect we are having on it. For those who already have a good understanding of how we are affecting our oceans they should still be able to learn a little and understand what we are aiming to achieve with spreading knowledge.
 
 - ### The User
 
@@ -180,7 +180,7 @@ indepth testing has been carried out, all results are shown [HERE](https://docs.
 - In mobile view ourmission.html images within .content div's will not center without !important tag.
   - _Direct decendant targeting, still has issues without !important tag._
 
-## Deployment
+## Deployment:
 
 ### Deployment to GitHub Pages
 
@@ -220,7 +220,9 @@ If you wish to experiment with the code freely, you can achieve this by forking 
 2. In the top right of the page, below your profile you should see a "Fork" button. Simply click on this.
 3. A copy of the repository will then be added to your own Repositories Page.
 
-## Credits
+## Credits:
 
 1. [National Geographic](https://www.nationalgeographic.com/environment/article/10-things-you-can-do-to-save-the-ocean) - Content for doyourpart.html
 2. [Teach Stacker](https://techstacker.com/how-to-responsive-youtube-videos/) - Making the Embeded youtube Videos responsive for smaller screen sizes
+
+## [BACK TO THE TOP](https://github.com/roomacarthur/seastainability#seastainability--ruairidh-macarthur)
