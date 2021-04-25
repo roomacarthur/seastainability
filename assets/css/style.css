@@ -114,7 +114,7 @@ a {
   grid-area: main;
   clear: both;
   display: grid;
-  grid-template-columns: 0.1fr 1fr 1fr 1fr 0.1fr;
+  grid-template-columns: 0.1fr 1fr 1fr 1fr 0.1fr; /*The 0.1fr is an active page buffer.*/
   grid-template-rows: 1fr;
   grid-template-areas: ". leftmain centermain rightmain .";
 }
