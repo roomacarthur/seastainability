@@ -198,20 +198,20 @@ The Page can sometimes take a little time to load and go live and this is expect
 ### Cloning Seastainability Repository
 
 1. Open GitBash and create a directory where you want to save the code.
-   > mkdir "directoryname"
+   > $ mkdir "directoryname"
 2. Navigate into the new directory.
-   > cd "directoryname"
+   > $ cd "directoryname"
 3. Navigate to the repository [roomacarthur/seastainability](https://github.com/roomacarthur/seastainability).
 4. Click on "Code" and then copy the SSH address.
 
 ![Git clone code options](assets/images/readme-images/clone-options.png)
 
 5. Navigate back to GitBash and clone the repository.
-   > git clone git@github.com:roomacarthur/seastainability.git
+   > $ git clone git@github.com:roomacarthur/seastainability.git
 
 The code will now be available within the directory you created. You can open the code up with the command.
 
-> code .
+> $ code .
 
 ### Forking Seastainability Repository
 
