@@ -172,8 +172,9 @@ indepth testing has been carried out, all results are shown [HERE](https://docs.
   - [Error 1](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/ourmission-error1.png) _fixed_
   - [Error 2](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/ourmission-error2.png) _fixed_
 - ~~index.html content is squeezed when viewing on small laptop(1280 x 720).~~ _fixed_ [Evidence](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/smalllaptopscreen-homepage-error.png)
-  - _div had wrong coding for max and min width's from during development fase, this was altered by adding aditional columns to CSS grid._
+  - _fixed by adding aditional columns to CSS grid as a buffer._
 - In mobile view on Apple Devices the contact form submit and clear buttons load in an ios default style.
+  - _fixed with -webkit- call in CSS._
 - In mobile view ourmission.html images within .content div's will not center without !important tag.
   - _Direct decendant targeting, still has issues without !important tag._
 
