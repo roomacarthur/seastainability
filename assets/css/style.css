@@ -343,6 +343,7 @@ textarea {
   font-weight: 500;
   font-size: 100%;
 }
+
 input[type="text"]:hover,
 input[type="email"]:hover {
   background-color: var(--skyblue);
@@ -365,7 +366,10 @@ input[type="submit"] {
 .formbutton:hover {
   background-color: var(--light);
 }
-
+form > textarea {
+  max-height: 150px;
+  height: 150px;
+}
 /*footer styling*/
 
 /*footer*/
