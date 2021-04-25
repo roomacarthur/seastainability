@@ -242,6 +242,7 @@ a {
   border-radius: 5px;
   position: relative;
 }
+
 .content-left img {
   float: left;
   margin-right: 10px;
@@ -256,7 +257,7 @@ a {
 
 .content {
   width: 60%;
-  padding: 10px 25px;
+  padding: 20px 25px;
   border: 1px solid var(--darkblue);
   border-radius: 5px;
   margin: 10px 25px;
@@ -270,7 +271,7 @@ a {
   letter-spacing: 1px;
   font-weight: 500;
   color: var(--light);
-  padding-top: 5px;
+  padding: 5px;
 }
 .content-hr {
   margin: 5px 0;
@@ -588,6 +589,7 @@ footer h3 {
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-top: 20px;
   }
   .content-left,
   .content-right {
