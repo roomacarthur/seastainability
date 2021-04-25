@@ -33,7 +33,7 @@
 
 ## The Why:
 
-Bring interest into the habbits of being more sustainable to protect our oceans, Provide people with quick and easy facts and information to strengthen their opinions and every day actions.
+Bring interest into the habits of being more sustainable to protect our oceans, Provide people with quick and easy facts and information to strengthen their opinions and every day actions.
 
 ## (UX) User Experiance:
 
@@ -53,27 +53,27 @@ Seastainability doesn't just have a target demographic, It in turn is aimed at a
     - Fact checked information to provide trustworthy content.
     - Ease of navigation.
     - Fast loading pages to make the site available to everyone.
-    - Responsive design so the site can be viewd on all devices.
+    - Responsive design so the site can be viewed on all devices.
 
 ### Future ideas:
 
-- Impliment a newsletter signup widget that is stuck to the bottom of all pages.
-- sticky header so the navbar is accessable from all points of the page.
-- Add a Blog/RSS feed to keep people uptodate on relative articles and news.
+- Implement a newsletter signup widget that is stuck to the bottom of all pages.
+- sticky header so the navbar is accessible from all points of the page.
+- Add a Blog/RSS feed to keep people up to date on relative articles and news.
 
 ## Design:
 
 ### Design Brief:
 
-For SEASTAINABILITY the whole idea is to provide simple and easy to read information on how to become more sustainable to help protect and save our oceans. The overall design principle for the site is to be simple and follow a stlye that has an essence of sustainablity about it, using relative colours and typography. The sites demographic is so vast that the site has to appeal to everyone that views it from young to old and all beliefs. The site will remain neutral but have a simplistic modern feel to it.
+For SEASTAINABILITY the whole idea is to provide simple and easy to read information on how to become more sustainable to help protect and save our oceans. The overall design principle for the site is to be simple and follow a style that has an essence of sustainability about it, using relative colours and typography. The site's demographic is so vast that the site has to appeal to everyone that views it from young to old and all beliefs. The site will remain neutral but have a simplistic modern feel to it.
 
 ### Typography:
 
-Following along with the design brief I want the user to have a very friendly and eco sensible experiance for this I have picked Two fonts Both from the Google Fonts library. Fonts used are [Lato](https://fonts.google.com/specimen/Lato?query=lato) for headings and [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) for all written content.
+Following along with the design brief I want the user to have a very friendly and eco sensible experience for this I have picked Two fonts Both from the Google Fonts library. Fonts used are [Lato](https://fonts.google.com/specimen/Lato?query=lato) for headings and [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) for all written content.
 
 ### Colours:
 
-To keep the colours inline with the design brief and with the help of [Colorinspo](https://colorsinspo.com/color-palettes/search/?sterm=%232d767f) I have decided to go with the netural colours listed below.
+To keep the colours inline with the design brief and with the help of [Colorinspo](https://colorsinspo.com/color-palettes/search/?sterm=%232d767f) I have decided to go with the neutral colours listed below.
 
 - #1e6262 - Darkblue
 - #2d767f - primary
@@ -82,14 +82,14 @@ To keep the colours inline with the design brief and with the help of [Colorinsp
 
 ### Images:
 
-All Images used within this site have beenn provided with [Pexels](https://pexels.com) a royalty free website.
+All Images used within this site have been provided with [Pexels](https://pexels.com) a royalty free website.
 all images have been compressed with the use of [Squoosh](https://squoosh.app) - images with an opaque overlay have been compressed heavier as the quality of the image isn't as important.
 The Favicon used for the site was taken from [Favicon.cc](https://www.favicon.cc/?action=icon&file_id=690331)
 
 ### Content:
 
-- Page content is static and won't change, when desiging the layout of pages this was taken into consideration. Page content can be found [HERE](https://docs.google.com/document/d/18xpv4xm6ch3qhcZeHQ55RjGOaYjjJ777VEZF4EyxMzs/edit?usp=sharing)
-- As stated above all the images where taken from [Pexels](https://pexels.com). These images are royalty free and do not incur any copyright issues.
+- Page content is static and won't change, when designing the layout of pages this was taken into consideration. Page content can be found [HERE](https://docs.google.com/document/d/18xpv4xm6ch3qhcZeHQ55RjGOaYjjJ777VEZF4EyxMzs/edit?usp=sharing)
+- As stated above all the images were taken from [Pexels](https://pexels.com). These images are royalty free and do not incur any copyright issues.
 
 ### Wireframes:
 
@@ -138,14 +138,14 @@ For testing I will use multiple resources:
 3. [W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 4. [Seastainability testing sheet](https://docs.google.com/spreadsheets/d/1j5fTc2kvFslpWCKUyjA68CdsLZiLo4CTNZQrS0LRafA/edit?usp=sharing)
 
-Using the above resources I will test all individual pages and note all bugts found in [Bugs & Fixes](https://github.com/roomacarthur/seastainability#bugs--fixes).
-I will also use peer code review within the slack community and my collegues for a "fresh set of eyes" to help pick out any issues I may miss.
+Using the above resources I will test all individual pages and note all bugs found in [Bugs & Fixes](https://github.com/roomacarthur/seastainability#bugs--fixes).
+I will also use peer code review within the slack community and my colleagues for a "fresh set of eyes" to help pick out any issues I may miss.
 
-With the vigerous testing and fresh eyes I hope to cover all issues that may arrise and implement fast fixes.
+With the vigorous testing and fresh eyes I hope to cover all issues that may arise and implement fast fixes.
 
 ### Testing Results:
 
-indepth testing has been carried out, all results are shown [HERE](https://docs.google.com/spreadsheets/d/1j5fTc2kvFslpWCKUyjA68CdsLZiLo4CTNZQrS0LRafA/edit?usp=sharing) in my test results sheet.
+In depth testing has been carried out, all results are shown [HERE](https://docs.google.com/spreadsheets/d/1j5fTc2kvFslpWCKUyjA68CdsLZiLo4CTNZQrS0LRafA/edit?usp=sharing) in my test results sheet.
 
 ### Lighthouse Results:
 
@@ -168,18 +168,18 @@ indepth testing has been carried out, all results are shown [HERE](https://docs.
 ### Bugs & Fixes:
 
 - ~~On mobile View the Border top for nav items doesn't fit 100% of screen width.~~ _fixed_
-  - _Adjusted width of the li witin the mobile menu to 100vw, this moved the border-top to fill 100% of the screen._
+  - _Adjusted width of the li within the mobile menu to 100vw, this moved the border-top to fill 100% of the screen._
 - ~~Screen sizes smaller than 250px ourmission.html images are off center.~~ _fixed_
   - _Adjusted div width, to allow for snugger fit on page centering up all content._
 - upon validating ourmission.html the following errors where found.
   - [Error 1](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/ourmission-error1.png) _fixed_
   - [Error 2](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/ourmission-error2.png) _fixed_
 - ~~index.html content is squeezed when viewing on small laptop(1280 x 720).~~ _fixed_ [Evidence](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/smalllaptopscreen-homepage-error.png)
-  - _fixed by adding aditional columns to CSS grid as a buffer._
+  - _fixed by adding additional columns to CSS grid as a buffer._
 - In mobile view on Apple Devices the contact form submit and clear buttons load in an ios default style.
   - _fixed with -webkit- call in CSS._
 - In mobile view ourmission.html images within .content div's will not center without !important tag.
-  - _Direct decendant targeting, still has issues without !important tag._
+  - _Direct descendant targeting, still has issues without !important tag._
 
 ## Deployment:
 
@@ -188,8 +188,8 @@ indepth testing has been carried out, all results are shown [HERE](https://docs.
 1. Visit [Github](www.github.com).
 2. Navigate to the [roomacarthur/seastainability](https://github.com/roomacarthur/seastainability) Repository.
 3. Click settings along the top options bar.
-4. Click pages found at the bottom of the lefthand navigation bar.
-5. In the 'Source' section, click the dropdown menu that is labled 'none' and select "Main".
+4. Click pages found at the bottom of the left hand navigation bar.
+5. In the 'Source' section, click the dropdown menu that is labeled 'none' and select "Main".
 6. Click Save.
 7. Page will auto refresh and provide you with a link to the Live GitHub Page for this repository.
 
@@ -209,7 +209,7 @@ The Page can sometimes take a little time to load and go live and this is expect
 5. Navigate back to GitBash and clone the repository.
    > git clone git@github.com:roomacarthur/seastainability.git
 
-The code will now be available within the cirectory you created. You can open the code up with the command
+The code will now be available within the directory you created. You can open the code up with the command.
 
 > code .
 
@@ -224,6 +224,6 @@ If you wish to experiment with the code freely, you can achieve this by forking 
 ## Credits:
 
 1. [National Geographic](https://www.nationalgeographic.com/environment/article/10-things-you-can-do-to-save-the-ocean) - Content for doyourpart.html
-2. [Teach Stacker](https://techstacker.com/how-to-responsive-youtube-videos/) - Making the Embeded youtube Videos responsive for smaller screen sizes
+2. [Teach Stacker](https://techstacker.com/how-to-responsive-youtube-videos/) - Making the Embedded youtube Videos responsive for smaller screen sizes
 
 ## [BACK TO THE TOP](https://github.com/roomacarthur/seastainability#seastainability--ruairidh-macarthur)
