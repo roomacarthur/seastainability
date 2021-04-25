@@ -4,13 +4,13 @@
 
 ### HTML/CSS Essentials - User Sentric, Static Front-End Website
 
-![Site example on multiple examples.](assets/images/readme-images/amiresponsive.png)
+![Site example on multiple devices.](assets/images/readme-images/amiresponsive.png)
 
 [Click Here to view the Live Project.](https://roomacarthur.github.io/seastainability/)
 
 [Click here to view the Repository.](https://github.com/roomacarthur/seastainability)
 
-## Table of Contents
+## Table of Contents:
 
 - [The Why](https://github.com/roomacarthur/seastainability#the-why)
 - [(UX) User Experiance](https://github.com/roomacarthur/seastainability#ux-user-experiance)
@@ -31,11 +31,11 @@
 - [Deployment](https://github.com/roomacarthur/seastainability#deployment)
 - [Credits](https://github.com/roomacarthur/seastainability#credits)
 
-## The Why
+## The Why:
 
 Bring interest into the habbits of being more sustainable to protect our oceans, Provide people with quick and easy facts and information to strengthen their opinions and every day actions.
 
-## (UX) User Experiance
+## (UX) User Experiance:
 
 Seastainability doesn't just have a target demographic, It in turn is aimed at anyone and everyone. The aim of the site is to bring interest to those who don't know a lot about the ocean and what effect we are having on it. For those who already have a good understanding of how we are affecting our oceans they should still be able to learn a little and understand what we are aiming to achieve with spreading knowledge.
 
@@ -61,7 +61,7 @@ Seastainability doesn't just have a target demographic, It in turn is aimed at a
 - sticky header so the navbar is accessable from all points of the page.
 - Add a Blog/RSS feed to keep people uptodate on relative articles and news.
 
-## Design
+## Design:
 
 ### Design Brief:
 
@@ -121,7 +121,7 @@ The basic structure of SEASTAINABILITY was sketched out on paper and then with t
 - [Do Your Part](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/mobile-doyourpart.png)
 - [Contact Us](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/mobile-contactus.png)
 
-## Technologies
+## Technologies:
 
 ### Languages used:
 
