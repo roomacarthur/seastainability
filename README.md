@@ -96,10 +96,10 @@ The basic structure of SEASTAINABILITY was sketched out on paper and then with t
 
 - [Home](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-home.png)
 - [Our Mission](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-ourmission.png)
-- [Our Oceans](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-ouroceans-1.png)
-  - [~~Our Oceans~~](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-ouroceans.png)
-- [Do Your Part](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-doyourpart-1.png)
-  - [~~Do Your Part~~](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-doyourpart.png)
+- [Our Oceans](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-ouroceans-1.png) _New_
+  - [~~Our Oceans~~](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-ouroceans.png) _Has been updated._
+- [Do Your Part](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-doyourpart-1.png) _New_
+  - [~~Do Your Part~~](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-doyourpart.png) _Has been updated._
 - [Contact Us](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-contactus.png)
 
 #### Tablet:
@@ -171,8 +171,9 @@ indepth testing has been carried out, all results are shown [HERE](https://docs.
 - upon validating ourmission.html the following errors where found.
   - [Error 1](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/ourmission-error1.png) _fixed_
   - [Error 2](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/ourmission-error2.png) _fixed_
-- ~~index.html content is squeezed when viewing on small laptop(1280 x 720).~~ _fixed_[Evidence](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/smalllaptopscreen-homepage-error.png)
+- ~~index.html content is squeezed when viewing on small laptop(1280 x 720).~~ _fixed_ [Evidence](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/smalllaptopscreen-homepage-error.png)
   - _div had wrong coding for max and min width's from during development fase, this was altered by adding aditional columns to CSS grid._
+- In mobile view on Apple Devices the contact form submit and clear buttons load in an ios default style.
 
 ## Deployment
 
