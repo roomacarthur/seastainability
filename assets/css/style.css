@@ -595,7 +595,7 @@ footer h3 {
     padding-top: 20px;
   }
   .page-content > .ourmission-content-left {
-    text-align: center !important; /*Trying to style the left contents image in mobile will not center unless using !important, Even using direct decendants and multiple targeting options.*/
+    text-align: center !important; /*Trying to style the left contents image in mobile will not center unless using !important, Even using direct descendants and multiple targeting options.*/
   }
   .content-left img,
   .content-right img {

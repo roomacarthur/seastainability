@@ -225,5 +225,6 @@ If you wish to experiment with the code freely, you can achieve this by forking 
 
 1. [National Geographic](https://www.nationalgeographic.com/environment/article/10-things-you-can-do-to-save-the-ocean) - Content for doyourpart.html
 2. [Teach Stacker](https://techstacker.com/how-to-responsive-youtube-videos/) - Making the Embedded youtube Videos responsive for smaller screen sizes
+3. [IOS form button fix](https://stackoverflow.com/questions/24238330/button-css-style-not-working-on-ios) - Override default button styling on ios devices.
 
 ## [BACK TO THE TOP](https://github.com/roomacarthur/seastainability#seastainability--ruairidh-macarthur)
