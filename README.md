@@ -94,29 +94,29 @@ The basic structure of SEASTAINABILITY was sketched out on paper and then with t
 
 #### Desktop:
 
-- [Home](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-home.png)
-- [Our Mission](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-ourmission.png)
-- [Our Oceans](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-ouroceans-1.png) _New_
-  - [~~Our Oceans~~](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-ouroceans.png) _Has been updated._
-- [Do Your Part](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-doyourpart-1.png) _New_
-  - [~~Do Your Part~~](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-doyourpart.png) _Has been updated._
-- [Contact Us](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/desktop-contactus.png)
+- [Home](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/desktop-home.png)
+- [Our Mission](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/desktop-ourmission.png)
+- [Our Oceans](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/desktop-ouroceans-1.png) _New_
+  - [~~Our Oceans~~](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/desktop-ouroceans.png) _Has been updated._
+- [Do Your Part](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/desktop-doyourpart-1.png) _New_
+  - [~~Do Your Part~~](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/desktop-doyourpart.png) _Has been updated._
+- [Contact Us](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/desktop-contactus.png)
 
 #### Tablet:
 
-- [Home](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/tablet-home.png)
-- [Our Mission](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/tablet-ourmission.png)
-- [Our Oceans](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/tablet-ouroceans.png)
-- [Do Your Part](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/tablet-doyourpart.png)
-- [Contact Us](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/tablet-contactus.png)
+- [Home](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/tablet-home.png)
+- [Our Mission](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/tablet-ourmission.png)
+- [Our Oceans](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/tablet-ouroceans.png)
+- [Do Your Part](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/tablet-doyourpart.png)
+- [Contact Us](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/tablet-contactus.png)
 
 #### Mobile:
 
-- [Home](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/mobile-home.png)
-- [Our Mission](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/mobile-ourmission.png)
-- [Our Oceans](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/mobile-ouroceans.png)
-- [Do Your Part](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/mobile-doyourpart.png)
-- [Contact Us](https://github.com/roomacarthur/seastainability/blob/main/assets/Wireframes/mobile-contactus.png)
+- [Home](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/mobile-home.png)
+- [Our Mission](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/mobile-ourmission.png)
+- [Our Oceans](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/mobile-ouroceans.png)
+- [Do Your Part](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/mobile-doyourpart.png)
+- [Contact Us](https://github.com/roomacarthur/seastainability/blob/main/assets/wireframes/mobile-contactus.png)
 
 ## Technologies
 
