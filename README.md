@@ -89,6 +89,7 @@ The Favicon used for the site was taken from [Favicon.cc](https://www.favicon.cc
 ### Content:
 
 - Page content is static and won't change, when desiging the layout of pages this was taken into consideration. Page content can be found [HERE](https://docs.google.com/document/d/18xpv4xm6ch3qhcZeHQ55RjGOaYjjJ777VEZF4EyxMzs/edit?usp=sharing)
+- As stated above all the images where taken from [Pexels](https://pexels.com). These images are royalty free and do not incur any copyright issues.
 
 ### Wireframes:
 
