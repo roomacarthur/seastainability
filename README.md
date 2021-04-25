@@ -37,6 +37,8 @@ Bring interest into the habbits of being more sustainable to protect our oceans,
 
 ## (UX) User Experiance
 
+Seastainability doesn't just have a target demographic, It in turn is aimed at anyone and everyone. The aim of the site is to bring interest to those who don't know a lot about the ocean and what effect we are having on it. For those who already have a good understanding of how we are affecting out oceans they should still be able to learn a little and understand what we are aiming to achieve with spreading knowledge.
+
 - ### The User
 
   - #### First Time User:
