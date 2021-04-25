@@ -367,8 +367,10 @@ input[type="submit"] {
   letter-spacing: 1px;
   text-align: center;
   font-weight: 500;
+  /*IOS button fix = code credit: https://stackoverflow.com/questions/24238330/button-css-style-not-working-on-ios */
   -webkit-appearance: none;
   -moz-appearance: none;
+  /*end of code credit.*/
 }
 .formbutton:hover {
   background-color: var(--light);
