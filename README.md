@@ -174,6 +174,8 @@ indepth testing has been carried out, all results are shown [HERE](https://docs.
 - ~~index.html content is squeezed when viewing on small laptop(1280 x 720).~~ _fixed_ [Evidence](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/smalllaptopscreen-homepage-error.png)
   - _div had wrong coding for max and min width's from during development fase, this was altered by adding aditional columns to CSS grid._
 - In mobile view on Apple Devices the contact form submit and clear buttons load in an ios default style.
+- In mobile view ourmission.html images within .content div's will not center without !important tag.
+  - _Direct decendant targeting, still has issues without !important tag._
 
 ## Deployment
 

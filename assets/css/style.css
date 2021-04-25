@@ -367,6 +367,8 @@ input[type="submit"] {
   letter-spacing: 1px;
   text-align: center;
   font-weight: 500;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 .formbutton:hover {
   background-color: var(--light);
@@ -398,7 +400,6 @@ footer {
   transform: rotateX(360deg);
 }
 footer h3 {
-  /* padding: 0 10px 0 10px; */
   font-size: 100%;
 }
 #right-footer {
@@ -591,23 +592,14 @@ footer h3 {
     margin-bottom: 10px;
     padding-top: 20px;
   }
-  .content-left,
-  .content-right {
-    clear: none;
-  }
-  .ourmission-content-left,
-  .ourmission-content-right {
-    text-align: center !important;
+  .page-content > .ourmission-content-left {
+    text-align: center !important; /*Trying to style the left contents image in mobile will not center unless using !important, Even using direct decendants and multiple targeting options.*/
   }
   .content-left img,
   .content-right img {
     clear: none;
     float: none;
-    margin: 0 auto;
-  }
-  .content-image {
-    margin: 0 auto;
-    position: relative;
+    margin: 0;
   }
   .content p {
     padding-top: 10px;
