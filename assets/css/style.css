@@ -260,17 +260,21 @@ a {
   border: 1px solid var(--darkblue);
   border-radius: 5px;
   margin: 10px 25px;
+  background-color: var(--darkblue);
 }
 .content h3 {
   padding-bottom: 10px;
+  color: var(--light);
 }
 .content p {
   letter-spacing: 1px;
   font-weight: 500;
+  color: var(--light);
+  padding-top: 5px;
 }
 .content-hr {
   margin: 5px 0;
-  background-color: var(--darkblue);
+  background-color: var(--primary);
   height: 2px;
   width: 100%;
   z-index: 3;
