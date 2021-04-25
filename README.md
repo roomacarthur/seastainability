@@ -167,14 +167,14 @@ In depth testing has been carried out, all results are shown [HERE](https://docs
 
 ### Bugs & Fixes:
 
-- ~~On mobile View the Border top for nav items doesn't fit 100% of screen width.~~ _fixed_
+- On mobile View the Border top for nav items doesn't fit 100% of screen width. _fixed_
   - _Adjusted width of the li within the mobile menu to 100vw, this moved the border-top to fill 100% of the screen._
-- ~~Screen sizes smaller than 250px ourmission.html images are off center.~~ _fixed_
+- Screen sizes smaller than 250px ourmission.html images are off center. _fixed_
   - _Adjusted div width, to allow for snugger fit on page centering up all content._
 - upon validating ourmission.html the following errors where found.
   - [Error 1](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/ourmission-error1.png) _fixed_
   - [Error 2](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/ourmission-error2.png) _fixed_
-- ~~index.html content is squeezed when viewing on small laptop(1280 x 720).~~ _fixed_ [Evidence](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/smalllaptopscreen-homepage-error.png)
+- index.html content is squeezed when viewing on small laptop(1280 x 720). _fixed_ [Evidence](https://github.com/roomacarthur/seastainability/blob/main/assets/testing-images/smalllaptopscreen-homepage-error.png)
   - _fixed by adding additional columns to CSS grid as a buffer._
 - In mobile view on Apple Devices the contact form submit and clear buttons load in an ios default style.
   - _fixed with -webkit- call in CSS._
